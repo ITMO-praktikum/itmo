@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
 module.exports = {
   target: 'web',
   entry: 
@@ -12,16 +13,15 @@ module.exports = {
     filename: 'main.js',
     publicPath: '',
   },
-  mode: 'development',
 
-  devServer: {
-    static: {
-      directory: path.resolve(__dirname, './dist'),
-    },
+  mode: 'development',
+  devServer: { 
+    watchFiles: ["src/*.html"], hot: true,
+    historyApiFallback: true,
     open: true,
     compress: true,
-    port: 8080,
-    
+    hot: true,
+    port: 8080,  
   },
   module: {
     rules: [
@@ -45,7 +45,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      title: 'ИТМО лендинг',
+      template: './src/template.html',
+      filename: 'index.html'
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin()
