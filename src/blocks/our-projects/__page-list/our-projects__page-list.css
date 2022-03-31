@@ -5,3 +5,9 @@
     display: flex;
     column-gap: 27px;
 }
+
+@media screen and (min-width: 768px) {
+    .our-projects__page-list {
+        column-gap: 47px;
+    }
+}

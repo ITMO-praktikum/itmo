@@ -11,3 +11,11 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+@media screen and (min-width: 768px) {
+    .project__button-arrow-right {
+       width: 32px;
+       height: 32px;
+       background-size: 19px;
+    }
+}

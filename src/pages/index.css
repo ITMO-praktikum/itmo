@@ -11,10 +11,15 @@
 @import url(../blocks/filter/filter.css);
 @import url(../blocks/our-projects/__filter/our-projects__filter.css);
 @import url(../blocks/our-projects/__button-chevron-down/our-projects__button-chevron-down.css);
+@import url(../blocks/filter/__item/filter__item.css);
 @import url(../blocks/filter/__item/_hidden/filter__item_hidden.css);
+@import url(../blocks/filter/__item/_selected/filter__item_selected.css);
+@import url(../blocks/our-projects/__projects/our-projects__projects.css);
 @import url(../blocks/our-projects/__projects-list/our-projects__projects-list.css);
 @import url(../blocks/project/project.css);
+@import url(../blocks/project/__background-image/project__background-image.css);
 @import url(../blocks/project/_hidden/project_hidden.css);
+@import url(../blocks/project/__content/project__content.css);
 @import url(../blocks/project/__logo/project__logo.css);
 @import url(../blocks/project/__description/project__description.css);
 @import url(../blocks/project/__button-arrow-right/project__button-arrow-right.css);
@@ -23,5 +28,6 @@
 @import url(../blocks/our-projects/__button-arrow/_direction_left/our-projects__button-arrow_direction_left.css);
 @import url(../blocks/our-projects/__page-list/our-projects__page-list.css);
 @import url(../blocks/our-projects/__page/_hidden/our-projects__page_hidden.css);
+@import url(../blocks/our-projects/__page/_selected/our-projects__page_selected.css);
 @import url(../blocks/our-projects/__page/our-projects__page.css);
 @import url(../blocks/our-projects/__button-arrow/_direction_right/our-projects__button-arrow_direction_right.css);

@@ -6,3 +6,11 @@
     letter-spacing: 0.1px;
     margin: 10px 0 0;
 }
+
+@media screen and (min-width: 768px) {
+    .project__description {
+        font-size: 12px;
+        line-height: 1.67;
+        max-width: 158px;
+    }
+}

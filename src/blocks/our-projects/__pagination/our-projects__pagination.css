@@ -5,3 +5,12 @@
     width: 100%;
     column-gap: 30px;
 }
+
+@media screen and (min-width: 768px) {
+    .our-projects__pagination {
+        max-width: 442px;
+        margin: 30px auto 60px;
+        width: 100%;
+        column-gap: 50px;
+    }
+}

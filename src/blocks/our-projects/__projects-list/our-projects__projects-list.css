@@ -1,11 +1,17 @@
 .our-projects__projects-list {
     padding: 0;
-    margin: 20px auto 0;
-    max-width: 288px;
-    width: 100%;
+    margin: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 8px;
     row-gap: 8px;
     list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+    .our-projects__projects-list {
+        column-gap: 30px;
+        row-gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

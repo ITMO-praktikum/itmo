@@ -1,0 +1,12 @@
+.our-projects__projects {
+    margin: 20px auto 0;
+    max-width: 288px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .our-projects__projects {
+        margin-top: 30px;
+        max-width: 690px;
+    }
+}
