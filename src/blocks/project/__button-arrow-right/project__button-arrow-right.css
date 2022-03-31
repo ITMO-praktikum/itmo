@@ -18,6 +18,12 @@
        height: 32px;
        background-size: 19px;
     }
+
+    .project__button-arrow-right:hover {
+        background-color: #009fac;
+        cursor: pointer;
+        background-image: url(../../../images/icon-arrow-right-white-project.svg);
+    }
 }
 
 @media screen and (min-width: 1440x) {
