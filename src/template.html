@@ -46,7 +46,7 @@
     </div>
     <div class="our-projects__projects">
       <ul class="our-projects__projects-list">
-        <li class="project">
+        <!-- <li class="project">
           <img src="<%=require('./images/project_gazprom.png')%>" alt="фоновое изображение" class="project__background-image">
           <div class="project__content">
             <img src="<%=require('./images/logo-gazprom.svg')%>" alt="Логотип Газпром" class="project__logo logo-gazprom">
@@ -285,7 +285,7 @@
             <p class="project__description">Направление включает в себя исследования и разработки технологий МО и КТ.</p>
             <button class="project__button-arrow-right" type="button" aria-label="Кнопка подробнее"></button>
           </div>
-        </li>
+        </li> -->
       </ul>
       <div class="our-projects__pagination">
         <button class="our-projects__button-arrow our-projects__button-arrow_direction_left" aria-label="Кнопка стрелка влево" type="button"></button>
@@ -324,9 +324,6 @@
         <button class="our-projects__button-arrow our-projects__button-arrow_direction_right" aria-label="Кнопка стрелка вправо" type="button"></button>
       </div>
     </div>
-    
-    
-
   </section>
 
   <!-- ОБРАЗОВАНИЕ -->
@@ -364,4 +361,14 @@
 
   </footer>
 </body>
+<template id="card-project">
+  <li class="project">
+    <img alt="фоновое изображение" class="project__background-image">
+    <div class="project__content">
+      <img class="project__logo">
+      <p class="project__description"></p>
+      <button class="project__button-arrow-right" type="button" aria-label="Кнопка подробнее"></button>
+    </div>
+  </li>
+</template>
 </html>
