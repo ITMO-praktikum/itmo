@@ -9,3 +9,10 @@
     height: 24px;
     align-self: center;
 }
+
+@media screen and (min-width: 1440px) {
+    .our-projects__button-arrow {
+        width: 32px;
+        height: 32px;
+    }
+}

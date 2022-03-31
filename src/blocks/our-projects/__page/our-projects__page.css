@@ -13,3 +13,11 @@
         line-height: 1.36;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .our-projects__page {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.67;
+    }
+}

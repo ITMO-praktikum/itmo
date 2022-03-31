@@ -11,3 +11,9 @@
         column-gap: 47px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .our-projects__page-list {
+        column-gap: 27px;
+    }
+}

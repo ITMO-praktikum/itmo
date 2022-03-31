@@ -9,3 +9,9 @@
         height: 45px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .project__logo {
+        height: 48px;
+    }
+}
