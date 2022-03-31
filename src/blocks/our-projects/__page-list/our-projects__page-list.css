@@ -1,19 +1,19 @@
 .our-projects__page-list {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    column-gap: 27px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  column-gap: 27px;
 }
 
 @media screen and (min-width: 768px) {
-    .our-projects__page-list {
-        column-gap: 47px;
-    }
+  .our-projects__page-list {
+    column-gap: 47px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .our-projects__page-list {
-        column-gap: 27px;
-    }
+  .our-projects__page-list {
+    column-gap: 27px;
+  }
 }

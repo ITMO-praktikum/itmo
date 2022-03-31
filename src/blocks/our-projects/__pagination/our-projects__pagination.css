@@ -1,27 +1,27 @@
 .our-projects__pagination {
-    display: flex;
-    margin: 8px auto 40px;
-    max-width: 288px;
-    width: 100%;
-    column-gap: 30px;
+  display: flex;
+  margin: 8px auto 40px;
+  max-width: 288px;
+  width: 100%;
+  column-gap: 30px;
 }
 
 @media screen and (min-width: 768px) {
-    .our-projects__pagination {
-        max-width: 442px;
-        margin: 30px auto 60px;
-        width: 100%;
-        column-gap: 50px;
-    }
+  .our-projects__pagination {
+    max-width: 442px;
+    margin: 30px auto 60px;
+    width: 100%;
+    column-gap: 50px;
+  }
 
-    .our-projects__pagination:hover {
-        cursor: pointer;
-    }
+  .our-projects__pagination:hover {
+    cursor: pointer;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .our-projects__pagination {
-        max-width: 344px;
-        column-gap: 30px;
-    }
+  .our-projects__pagination {
+    max-width: 344px;
+    column-gap: 30px;
+  }
 }

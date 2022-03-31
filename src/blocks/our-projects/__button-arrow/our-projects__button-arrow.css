@@ -1,24 +1,24 @@
 .our-projects__button-arrow {
-    background-color: transparent;
-    box-sizing: border-box;
-    border: none;
-    padding: 0;
-    display: block;
-    background-size: cover;
-    width: 24px;
-    height: 24px;
-    align-self: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: none;
+  padding: 0;
+  display: block;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  align-self: center;
 }
 
 @media screen and (min-width: 768px) {
-    .our-projects__button-arrow:hover {
-        cursor: pointer;
-    }
+  .our-projects__button-arrow:hover {
+      cursor: pointer;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .our-projects__button-arrow {
-        width: 32px;
-        height: 32px;
-    }
+  .our-projects__button-arrow {
+      width: 32px;
+      height: 32px;
+  }
 }

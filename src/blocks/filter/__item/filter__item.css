@@ -1,9 +1,9 @@
 .filter__item {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) {
-    .filter__item {
-        padding-bottom: 8px;
-    }
+  .filter__item {
+      padding-bottom: 8px;
+  }
 }
