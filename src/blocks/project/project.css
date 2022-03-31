@@ -31,6 +31,7 @@
 
     .project:hover {
         color: #001337;
+        cursor: default;
     }
 }
 

@@ -13,6 +13,10 @@
         width: 100%;
         column-gap: 50px;
     }
+
+    .our-projects__pagination:hover {
+        cursor: pointer;
+    }
 }
 
 @media screen and (min-width: 1440px) {
