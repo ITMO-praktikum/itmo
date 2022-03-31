@@ -1,0 +1,9 @@
+.our-projects__filter {
+    display: flex;
+    margin: 20px auto 0;
+    max-width: 288px;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 2px solid #009FAC;
+}

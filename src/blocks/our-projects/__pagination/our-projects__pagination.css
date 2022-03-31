@@ -1,0 +1,7 @@
+.our-projects__pagination {
+    display: flex;
+    margin: 8px auto 40px;
+    max-width: 288px;
+    width: 100%;
+    column-gap: 30px;
+}

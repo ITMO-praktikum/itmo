@@ -1,0 +1,6 @@
+.project__logo {
+    display: block;
+    object-fit: none;
+    max-height: 26px;
+    align-self: start;
+}

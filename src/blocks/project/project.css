@@ -1,0 +1,7 @@
+.project {
+    background-color: #009fac;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}

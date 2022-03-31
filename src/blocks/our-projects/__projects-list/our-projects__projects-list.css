@@ -1,0 +1,11 @@
+.our-projects__projects-list {
+    padding: 0;
+    margin: 20px auto 0;
+    max-width: 288px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 8px;
+    row-gap: 8px;
+    list-style-type: none;
+}

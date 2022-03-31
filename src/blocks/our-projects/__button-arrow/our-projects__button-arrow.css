@@ -1,0 +1,11 @@
+.our-projects__button-arrow {
+    background-color: transparent;
+    box-sizing: border-box;
+    border: none;
+    padding: 0;
+    display: block;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    align-self: center;
+}
