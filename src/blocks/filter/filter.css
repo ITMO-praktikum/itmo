@@ -16,5 +16,14 @@
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     text-align: center;
+    font-size: 14px;
+    line-height: 1.12;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .filter {
+    font-size: 16px;
+    line-height: 1.38;
   }
 }

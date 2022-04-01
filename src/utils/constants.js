@@ -12,7 +12,8 @@ export const projectsList = [
 		logoDark: logoGazpromDark,
 		backgroundImage: backgroundGazprom,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 1
+		id: 1,
+		typeProject: 'national'
   },
 	{
 		name: 'Sberbank',
@@ -20,7 +21,8 @@ export const projectsList = [
 		logoDark: logoSberbankDark,
 		backgroundImage: backgroundSberbank,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 2
+		id: 2,
+		typeProject: 'national'
   },
 	{
 		name: 'Gazprom',
@@ -28,7 +30,8 @@ export const projectsList = [
 		logoDark: logoGazpromDark,
 		backgroundImage: backgroundGazprom,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 3
+		id: 3,
+		typeProject: 'national'
   },
 	{
 		name: 'Sberbank',
@@ -36,7 +39,8 @@ export const projectsList = [
 		logoDark: logoSberbankDark,
 		backgroundImage: backgroundSberbank,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 4
+		id: 4,
+		typeProject: 'national'
   },
 	{
 		name: 'Gazprom',
@@ -44,7 +48,8 @@ export const projectsList = [
 		logoDark: logoGazpromDark,
 		backgroundImage: backgroundGazprom,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 5
+		id: 5,
+		typeProject: 'national'
   },
 	{
 		name: 'Sberbank',
@@ -52,7 +57,8 @@ export const projectsList = [
 		logoDark: logoSberbankDark,
 		backgroundImage: backgroundSberbank,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 6
+		id: 6,
+		typeProject: 'national'
   },
 	{
 		name: 'Gazprom',
@@ -60,7 +66,8 @@ export const projectsList = [
 		logoDark: logoGazpromDark,
 		backgroundImage: backgroundGazprom,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 7
+		id: 7,
+		typeProject: 'national'
   },
 	{
 		name: 'Sberbank',
@@ -68,7 +75,8 @@ export const projectsList = [
 		logoDark: logoSberbankDark,
 		backgroundImage: backgroundSberbank,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 8
+		id: 8,
+		typeProject: 'national'
   },
 	{
 		name: 'Gazprom',
@@ -76,7 +84,8 @@ export const projectsList = [
 		logoDark: logoGazpromDark,
 		backgroundImage: backgroundGazprom,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 9
+		id: 9,
+		typeProject: 'national'
   },
 	{
 		name: 'Sberbank',
@@ -84,7 +93,8 @@ export const projectsList = [
 		logoDark: logoSberbankDark,
 		backgroundImage: backgroundSberbank,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 10
+		id: 10,
+		typeProject: 'national'
   },
 	{
 		name: 'Gazprom',
@@ -92,7 +102,8 @@ export const projectsList = [
 		logoDark: logoGazpromDark,
 		backgroundImage: backgroundGazprom,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 11
+		id: 11,
+		typeProject: 'special'
   },
 	{
 		name: 'Sberbank',
@@ -100,7 +111,8 @@ export const projectsList = [
 		logoDark: logoSberbankDark,
 		backgroundImage: backgroundSberbank,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 12
+		id: 12,
+		typeProject: 'special'
   },
 	{
 		name: 'Gazprom',
@@ -108,7 +120,8 @@ export const projectsList = [
 		logoDark: logoGazpromDark,
 		backgroundImage: backgroundGazprom,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 13
+		id: 13,
+		typeProject: 'special'
   },
 	{
 		name: 'Sberbank',
@@ -116,7 +129,8 @@ export const projectsList = [
 		logoDark: logoSberbankDark,
 		backgroundImage: backgroundSberbank,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 14
+		id: 14,
+		typeProject: 'special'
   },
 	{
 		name: 'Gazprom',
@@ -124,7 +138,8 @@ export const projectsList = [
 		logoDark: logoGazpromDark,
 		backgroundImage: backgroundGazprom,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 15
+		id: 15,
+		typeProject: 'special'
   },
 	{
 		name: 'Sberbank',
@@ -132,7 +147,8 @@ export const projectsList = [
 		logoDark: logoSberbankDark,
 		backgroundImage: backgroundSberbank,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 16
+		id: 16,
+		typeProject: 'special'
   },
 	{
 		name: 'Gazprom',
@@ -140,7 +156,8 @@ export const projectsList = [
 		logoDark: logoGazpromDark,
 		backgroundImage: backgroundGazprom,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 17
+		id: 17,
+		typeProject: 'special'
   },
 	{
 		name: 'Sberbank',
@@ -148,7 +165,8 @@ export const projectsList = [
 		logoDark: logoSberbankDark,
 		backgroundImage: backgroundSberbank,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 18
+		id: 18,
+		typeProject: 'special'
   },
 	{
 		name: 'Gazprom',
@@ -156,7 +174,8 @@ export const projectsList = [
 		logoDark: logoGazpromDark,
 		backgroundImage: backgroundGazprom,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 19
+		id: 19,
+		typeProject: 'special'
   },
 	{
 		name: 'Sberbank',
@@ -164,7 +183,8 @@ export const projectsList = [
 		logoDark: logoSberbankDark,
 		backgroundImage: backgroundSberbank,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 20
+		id: 20,
+		typeProject: 'special'
   },
 	{
 		name: 'Gazprom',
@@ -172,7 +192,8 @@ export const projectsList = [
 		logoDark: logoGazpromDark,
 		backgroundImage: backgroundGazprom,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 21
+		id: 21,
+		typeProject: 'development'
   },
 	{
 		name: 'Sberbank',
@@ -180,7 +201,8 @@ export const projectsList = [
 		logoDark: logoSberbankDark,
 		backgroundImage: backgroundSberbank,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 22
+		id: 22,
+		typeProject: 'development'
   },
 	{
 		name: 'Gazprom',
@@ -188,7 +210,8 @@ export const projectsList = [
 		logoDark: logoGazpromDark,
 		backgroundImage: backgroundGazprom,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 23
+		id: 23,
+		typeProject: 'development'
   },
 	{
 		name: 'Sberbank',
@@ -196,7 +219,8 @@ export const projectsList = [
 		logoDark: logoSberbankDark,
 		backgroundImage: backgroundSberbank,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 24
+		id: 24,
+		typeProject: 'development'
   },
 	{
 		name: 'Gazprom',
@@ -204,7 +228,8 @@ export const projectsList = [
 		logoDark: logoGazpromDark,
 		backgroundImage: backgroundGazprom,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 25
+		id: 25,
+		typeProject: 'development'
   },
 	{
 		name: 'Sberbank',
@@ -212,7 +237,8 @@ export const projectsList = [
 		logoDark: logoSberbankDark,
 		backgroundImage: backgroundSberbank,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 26
+		id: 26,
+		typeProject: 'development'
   },
 	{
 		name: 'Gazprom',
@@ -220,7 +246,8 @@ export const projectsList = [
 		logoDark: logoGazpromDark,
 		backgroundImage: backgroundGazprom,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 27
+		id: 27,
+		typeProject: 'development'
   },
 	{
 		name: 'Sberbank',
@@ -228,7 +255,8 @@ export const projectsList = [
 		logoDark: logoSberbankDark,
 		backgroundImage: backgroundSberbank,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 28
+		id: 28,
+		typeProject: 'development'
   },
 	{
 		name: 'Gazprom',
@@ -236,7 +264,8 @@ export const projectsList = [
 		logoDark: logoGazpromDark,
 		backgroundImage: backgroundGazprom,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 29
+		id: 29,
+		typeProject: 'development'
   },
 	{
 		name: 'Sberbank',
@@ -244,6 +273,7 @@ export const projectsList = [
 		logoDark: logoSberbankDark,
 		backgroundImage: backgroundSberbank,
 		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
-		id: 30
+		id: 30,
+		typeProject: 'development'
   },
 ];
