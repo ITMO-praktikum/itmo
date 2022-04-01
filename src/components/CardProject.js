@@ -19,7 +19,21 @@ export default class CardProject {
 
 	// установка слушателей событий
   _setEventListeners() {
+		// изменение логотипа при наведении
+		this._element.addEventListener('mouseover', _ => {
+			this._element.querySelector('.project__logo').src = this._logoDark;
+		});
+		this._element.addEventListener('mouseout', _ => {
+			!this._element.closest('.project_pressed') ?
+				this._element.querySelector('.project__logo').src = this._logoLight :
+				this._element.querySelector('.project__logo').src = this._logoDark;
+		});
 
+		// обработчик клика по карточке
+		this._element.addEventListener('click', _ => {
+			this._element.querySelector('.project__logo').src = this._logoDark;
+			this._element.classList.add('project_pressed');
+		});
 	}
 
 	// метод, который генерирует карточку
