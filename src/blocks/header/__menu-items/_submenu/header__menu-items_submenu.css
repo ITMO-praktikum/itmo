@@ -1,0 +1,7 @@
+.header__menu-items_submenu {
+  display: none;
+}
+
+.header__menu-items_submenu-active {
+  display: block;
+}

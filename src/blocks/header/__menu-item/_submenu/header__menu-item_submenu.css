@@ -1,0 +1,13 @@
+.header__menu-item_submenu {
+}
+.header__menu-item_submenu:hover {
+}
+
+.header__menu-title {
+  padding-left: 16px;
+  transition: .5s background;
+}
+.header__menu-title:hover {
+  background-color: #001337;
+  transition: .5s background;
+}

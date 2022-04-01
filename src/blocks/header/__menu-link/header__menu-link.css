@@ -1,0 +1,12 @@
+.header__menu-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 44px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+}

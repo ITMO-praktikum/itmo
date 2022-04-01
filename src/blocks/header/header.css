@@ -1,0 +1,8 @@
+.header {
+  display: flex;
+  max-width: 320px;
+  background-color: #000D26;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}

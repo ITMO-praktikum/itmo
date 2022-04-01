@@ -1,0 +1,10 @@
+.header__wrap {
+  box-sizing: border-box;
+  height: 44px;
+  padding: 10px 16px;
+  display: flex;
+  position: relative;
+}
+.header__wrap_active {
+  justify-content: space-between;
+}
