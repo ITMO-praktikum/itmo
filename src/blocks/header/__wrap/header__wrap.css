@@ -8,3 +8,15 @@
 .header__wrap_active {
   justify-content: space-between;
 }
+
+@media screen and (min-width: 479px) {
+  .header__wrap {
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .header__wrap {
+    height: 80px;
+  }
+}

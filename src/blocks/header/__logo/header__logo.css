@@ -4,6 +4,12 @@
   transform: translate(0px);
 }
 .header__logo_active {
-  transform: translate(-110px);
+  /* transform: translate(-110px); */
   transition: all 0.5s;
+}
+@media screen and (min-width: 479px) {
+  .header__logo_active {
+    margin-left: 0;
+    z-index: 10;
+  }
 }
