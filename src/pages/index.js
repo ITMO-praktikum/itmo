@@ -1,23 +1,29 @@
 import { f } from 'core-js/modules/_object-dp';
 import './index.css';
-// Header
-const headerSelector = {
-  header: document.querySelector('.header__wrap'),
-  logo: document.querySelector('.header__logo'),
-  btnOpenMenu: document.querySelector('.header__menu-burger'),
-  btnCloseMenu: document.querySelector('.header__menu-exit'),
-}
 
 //Burder menu
 const burgerMenu = {
-  menu: document.querySelector('.header__menu'),
-  submenu: document.querySelector('.header__menu-title'),
-  submenuContainer: document.querySelector('.header__menu-items_submenu'),
-  link: document.querySelectorAll('.header__menu-link'),
+  burgerBtn: document.querySelector('.header__menu-burger'),
+  menuContainer: document.querySelector('.burger-menu'),
+  menuCloseBtn: document.querySelector('.burger-menu__close'),
 }
 
+
+burgerMenu.burgerBtn.addEventListener('click', () => {
+  console.log('Я бургер буттон')
+  burgerMenu.menuContainer.classList.toggle('burger-menu_active')
+});
+
+burgerMenu.menuCloseBtn.addEventListener('click', () => {
+  console.log('я кнопка закрытия')
+  burgerMenu.menuContainer.classList.toggle('burger-menu_active')
+});
+
+
+
+
 //preventDefault
-const linkArray = Array.from(burgerMenu.link)
+// const linkArray = Array.from()
 function addPreventDefault(e){
   e.forEach((el) => {
     el.addEventListener('click', (ev) => {
@@ -25,39 +31,7 @@ function addPreventDefault(e){
     })
   })
 }
-addPreventDefault(linkArray)
 
-function setHeaderState() {
-  headerSelector.btnOpenMenu.classList.toggle('header__menu-burger_active');
-  headerSelector.btnCloseMenu.classList.toggle('header__menu-exit_active');
-  headerSelector.logo.classList.toggle('header__logo_active');
-  console.log('setHeaderState')
-}
 
-function openBurgerMenu() {
-  burgerMenu.menu.classList.toggle('header__menu_active');
-  console.log('openBurgerMenu')
-}
 
-function openSubMenu() {
-  burgerMenu.submenuContainer.classList.toggle('header__menu-items_submenu-active');
-}
-
-headerSelector.btnOpenMenu.addEventListener('click', () => {
-  setHeaderState();
-  openBurgerMenu();
-});
-
-headerSelector.btnCloseMenu.addEventListener('click', () => {
-  setHeaderState();
-  openBurgerMenu();
-  closeSubMenu(); 
-});
-
-function closeSubMenu(){
-  burgerMenu.submenuContainer.classList.remove('header__menu-items_submenu-active');
-}
-
-burgerMenu.submenu.addEventListener('click', () => {
-  openSubMenu();
-});
+// addPreventDefault()

@@ -23,3 +23,19 @@
 @import url(../blocks/header/__menu-item/_submenu/header__menu-item_submenu.css);
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__menu-link/_submenu/header__menu-link_submenu.css);
+
+/* burger menu */
+@import url(../blocks/burger-menu/burger-menu.css);
+@import url(../blocks/burger-menu/__header/burger-menu__header.css);
+@import url(../blocks/burger-menu/__logo/burger-menu__logo.css);
+@import url(../blocks/burger-menu/__close/burger-menu__close.css);
+@import url(../blocks/burger-menu/__wrap/burger-menu__wrap.css);
+@import url(../blocks/burger-menu/__items/burger-menu__items.css);
+@import url(../blocks/burger-menu/__item/burger-menu__item.css);
+
+/* submenu */
+
+@import url(../blocks/burger-menu/__submenu/burger-menu__submenu.css);
+@import url(../blocks/burger-menu/__submenu-title/burger-menu__submenu-title.css);
+@import url(../blocks/burger-menu/__submenu-wrap/burger-menu__submenu-wrap.css);
+@import url(../blocks/burger-menu/__link/burger-menu__link.css);

@@ -1,0 +1,21 @@
+.burger-menu__close {
+  cursor: pointer;
+
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: none;
+  background: url('../../../images/menu_exit-btn.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: scale(1); 
+  opacity: 1;
+  transition: .5s;
+}
+.burger-menu__close _active {
+  transform: scale(1); 
+  opacity: 1;
+  transition-duration: .5s;
+  transition-timing-function: ease;
+}

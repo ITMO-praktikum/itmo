@@ -1,0 +1,26 @@
+.burger-menu {
+  position: absolute;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  background-color: #000d26;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  transform: scale(0);
+}
+.burger-menu_active {
+  transform: scale(1);
+}
+
+@media screen and (min-width: 321px) and (max-width: 1023px){
+  .burger-menu {
+    max-width: 330px;
+  }
+}
+@media screen and (min-width: 1023px){
+  .burger-menu {
+    display: none;
+  }
+}

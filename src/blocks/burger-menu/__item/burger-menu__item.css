@@ -1,0 +1,9 @@
+.burger-menu__item {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+.burger-menu__item:hover {
+  background-color: #001337;
+}
