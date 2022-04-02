@@ -6,4 +6,8 @@
   .filter__item {
       padding-bottom: 8px;
   }
+
+  .filter__item:hover {
+    cursor: pointer;
+  }
 }

@@ -10,7 +10,9 @@
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/filter/filter.css);
 @import url(../blocks/our-projects/__filter/our-projects__filter.css);
+@import url(../blocks/our-projects/__filter/_hidden-bottom/our-projects__filter_hidden-bottom.css);
 @import url(../blocks/our-projects/__button-chevron-down/our-projects__button-chevron-down.css);
+@import url(../blocks/our-projects/__button-chevron-down/_hiddden/our-projects__button-chevron-down_hidden.css);
 @import url(../blocks/filter/__item/filter__item.css);
 @import url(../blocks/filter/__item/_hidden/filter__item_hidden.css);
 @import url(../blocks/filter/__item/_selected/filter__item_selected.css);
