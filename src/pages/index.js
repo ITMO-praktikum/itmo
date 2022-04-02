@@ -29,7 +29,7 @@ function filterCardProject(dataCard, filterName) {
 // обработчик фильтрации карточек проектов
 function handleFilterCardProject(buttonName, dataCard, evt) {
 	const target = evt.target;
-	const newCardsList = target.closest(`.filter__item_${buttonName}`) ? filterCardProject(dataCard, buttonName) : [];
+	const newCardsList = target.closest(`.filter__item_${buttonName}`) ? filterCardProject(dataCard, buttonName) : dataCard;
 	
 	cardProjectsContainer.innerHTML = '';
 	const cardProjectsList = new Section({
@@ -50,6 +50,17 @@ function addStyleFilter(button) {
 	const buttonChecked = filterListContainer.querySelector('.filter__item_selected');
 	buttonChecked.classList.remove('filter__item_selected');
 	button.classList.add('filter__item_selected');
+}
+
+// слушатель событий для фильтров
+function eventListenerFilter(button, typeProject, projectsList) {
+	button.addEventListener('click', evt => {
+		if (document.documentElement.clientWidth < 768) {
+			hendleselectFilterByMobile(evt);
+		}
+		addStyleFilter(button);
+		handleFilterCardProject(typeProject, projectsList, evt);
+	});
 }
 
 // обработчик разворачивания фильтров в mobile
@@ -74,7 +85,6 @@ function hendleselectFilterByMobile(evt) {
 	});
 	filterContainer.classList.remove('our-projects__filter_hidden-bottom');
 	buttonExpandFilter.classList.remove('our-projects__button-chevron-down_hidden');
-
 }
 
 // добавление карточек из массива
@@ -91,48 +101,12 @@ const cardProjectsList = new Section({
 cardProjectsList.renderItems();
 
 // фильтрация карточек проектов
-filterButtonAll.addEventListener('click', evt => {
-	if (document.documentElement.clientWidth < 768) {
-		hendleselectFilterByMobile(evt);
-	}
-	addStyleFilter(filterButtonAll);
-	cardProjectsContainer.innerHTML = '';
-	const cardProjectsList = new Section({
-		list: projectsList,
-		renderer: item => {
-			const card = createCardProject(item, '.project');
-	
-			cardProjectsList.addItem(card);
-			}
-		},
-		'.our-projects__projects-list'
-	);
-	cardProjectsList.renderItems();
-});
-filterButtonSpecial.addEventListener('click', evt => {
-	if (document.documentElement.clientWidth < 768) {
-		hendleselectFilterByMobile(evt);
-	}
-	addStyleFilter(filterButtonSpecial);
-	handleFilterCardProject('special', projectsList, evt);
-});
-filterButtonNational.addEventListener('click', evt => {
-	if (document.documentElement.clientWidth < 768) {
-		hendleselectFilterByMobile(evt);
-	}
-	addStyleFilter(filterButtonNational);
-	handleFilterCardProject('national', projectsList, evt);
-});
-filterButtonDevelopment.addEventListener('click', evt => {
-	if (document.documentElement.clientWidth < 768) {
-		hendleselectFilterByMobile(evt);
-	}
-	addStyleFilter(filterButtonDevelopment);
-	handleFilterCardProject('development', projectsList, evt);
-});
+eventListenerFilter(filterButtonAll, '', projectsList);
+eventListenerFilter(filterButtonSpecial, 'special', projectsList);
+eventListenerFilter(filterButtonNational, 'national', projectsList);
+eventListenerFilter(filterButtonDevelopment, 'development', projectsList);
 
 // разворачивание фильтров для mobile
 buttonExpandFilter.addEventListener('click', _ => {
 	expandFilter();
 });
-
