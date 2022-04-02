@@ -1,6 +1,5 @@
 .burger-menu__close {
   cursor: pointer;
-
   padding: 0;
   width: 24px;
   height: 24px;
@@ -13,9 +12,18 @@
   opacity: 1;
   transition: .5s;
 }
-.burger-menu__close _active {
+
+.burger-menu__close_active {
   transform: scale(1); 
   opacity: 1;
   transition-duration: .5s;
   transition-timing-function: ease;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
+  .burger-menu__close {
+    width: 32px;
+    height: 32px;
+    background-size: contain;
+  }
 }
