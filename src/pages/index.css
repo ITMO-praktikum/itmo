@@ -25,6 +25,7 @@
 @import url(../blocks/project/__logo/project__logo.css);
 @import url(../blocks/project/__description/project__description.css);
 @import url(../blocks/project/__button-arrow-right/project__button-arrow-right.css);
+@import url(../blocks/project/__button-arrow-right/_hovered/project__button-arrow-right_hovered.css);
 @import url(../blocks/our-projects/__pagination/our-projects__pagination.css);
 @import url(../blocks/our-projects/__button-arrow/our-projects__button-arrow.css);
 @import url(../blocks/our-projects/__button-arrow/_direction_left/our-projects__button-arrow_direction_left.css);

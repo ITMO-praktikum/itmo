@@ -20,9 +20,7 @@
   }
 
   .project__button-arrow-right:hover {
-    background-color: #009fac;
     cursor: pointer;
-    background-image: url(../../../images/icon-arrow-right-white-project.svg);
   }
 }
 
