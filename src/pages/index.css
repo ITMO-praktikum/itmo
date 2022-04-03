@@ -3,4 +3,38 @@
 /* fonts */ 
 @import url(../vendor/OpenSans/opensans.css); 
 /* root */ 
-@import url(../blocks/root/root.css); 
+@import url(../blocks/root/root.css);
+
+/* НАШИ ПРОЕКТЫ */
+@import url(../blocks/our-projects/our-projects.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/filter/filter.css);
+@import url(../blocks/our-projects/__filter/our-projects__filter.css);
+@import url(../blocks/our-projects/__filter/_hidden-bottom/our-projects__filter_hidden-bottom.css);
+@import url(../blocks/our-projects/__button-chevron-down/our-projects__button-chevron-down.css);
+@import url(../blocks/our-projects/__button-chevron-down/_hiddden/our-projects__button-chevron-down_hidden.css);
+@import url(../blocks/filter/__item/filter__item.css);
+@import url(../blocks/filter/__item/_hidden/filter__item_hidden.css);
+@import url(../blocks/filter/__item/_selected/filter__item_selected.css);
+@import url(../blocks/our-projects/__projects/our-projects__projects.css);
+@import url(../blocks/our-projects/__projects-list/our-projects__projects-list.css);
+@import url(../blocks/project/project.css);
+@import url(../blocks/project/_hidden/project_hidden.css);
+@import url(../blocks/project/_pressed/project_pressed.css);
+@import url(../blocks/project/__background-image/project__background-image.css);
+@import url(../blocks/project/__content/project__content.css);
+@import url(../blocks/project/__logo/project__logo.css);
+@import url(../blocks/project/__description/project__description.css);
+@import url(../blocks/project/__button-arrow-right/project__button-arrow-right.css);
+@import url(../blocks/project/__button-arrow-right/_hovered/project__button-arrow-right_hovered.css);
+@import url(../blocks/our-projects/__pagination/our-projects__pagination.css);
+@import url(../blocks/our-projects/__button-arrow/our-projects__button-arrow.css);
+@import url(../blocks/our-projects/__button-arrow/_direction_left/our-projects__button-arrow_direction_left.css);
+@import url(../blocks/our-projects/__page-list/our-projects__page-list.css);
+@import url(../blocks/our-projects/__page/_hidden/our-projects__page_hidden.css);
+@import url(../blocks/our-projects/__page/_selected/our-projects__page_selected.css);
+@import url(../blocks/our-projects/__page/our-projects__page.css);
+@import url(../blocks/our-projects/__ellipsis/our-projects__ellipsis.css);
+@import url(../blocks/our-projects/__button-arrow/_direction_right/our-projects__button-arrow_direction_right.css);
+@import url(../blocks/our-projects/__button-arrow/_pressed_left/our-projects__button-arrow_pressed_left.css);
+@import url(../blocks/our-projects/__button-arrow/_pressed_right/our-projects__button-arrow_pressed_right.css);

@@ -1,0 +1,22 @@
+.our-projects__projects {
+  margin: 20px auto 0;
+  max-width: 288px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .our-projects__projects {
+    margin-top: 30px;
+    max-width: 690px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .our-projects__projects {
+    margin-top: 60px;
+    max-width: 1110px;
+
+  }
+}
