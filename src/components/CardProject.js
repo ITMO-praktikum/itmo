@@ -6,7 +6,6 @@ export default class CardProject {
 		this._backgroundImage = data.backgroundImage;
 		this._deskription = data.deskription;
     this._cardSelector = cardSelector;
-		this._id = data.id;
 		this._typeProject = data.typeProject;
   }
 
@@ -47,7 +46,6 @@ export default class CardProject {
   generateElementCard() {
     this._element = this._getTemplateCard();
     this._setEventListeners();
-		this._element.id = this._id;
 		this._element.classList.add(`project__type_${this._typeProject}`);
     this._element.querySelector('.project__background-image').src = this._backgroundImage;
     this._element.querySelector('.project__logo').alt = `логотип ${this._name}`;

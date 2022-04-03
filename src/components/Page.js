@@ -17,7 +17,6 @@ export default class Page {
   _setEventListeners() {
     // обработчик клика по номеру страницы
     this._element.addEventListener('click', _ => {
-      this._element.classList.add('our-projects__page_selected');
       this._render(this._element);
     });
   }  

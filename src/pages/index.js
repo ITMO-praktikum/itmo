@@ -65,7 +65,18 @@ function eventListenerFilter(button, typeProject, projectsList) {
 		}
 		addStyleFilter(button);
 		handleFilterCardProject(typeProject, projectsList, evt);
-		renderPagination();
+		// рендер пагинатора
+		if (document.documentElement.clientWidth < 768) {
+			renderPagination(4);
+		}
+		if (document.documentElement.clientWidth < 1440 && document.documentElement.clientWidth >= 768) {
+			renderPagination(6);
+		}
+		if (document.documentElement.clientWidth >= 1440) {
+			renderPagination(8);
+		}
+		// отображение карточек, соответствующих номеру страницы
+		showCardsList(1);
 	});
 }
 
@@ -128,67 +139,85 @@ function createPagination(arrayPages) {
 	pagination.renderItems();
 }
 
-// функция отображения пагинатора на странице
-function showPagination() {
+// функция отображения пагинатора
+function showPagination(numberPage) {
 	const pagesList = Array.from(document.querySelectorAll('.our-projects__page'));
+	pagesList[0].classList.add('our-projects__page_selected');
 	const ellipsis = document.createElement('li');
 	ellipsis.innerHTML = '...';
 	ellipsis.classList.add('our-projects__ellipsis');
 	
+	// отображение многоточия после каждого четвертого видимого элемента
+	if (pagesList.length > 6 && numberPage < pagesList.length - 4) {
+		pagesList[numberPage + 3].after(ellipsis);
+	}
 
-	if (pagesList.length > 6) {
-		/* const numberEllipsis = pagesList.length - 6;
-		pagesList[numberEllipsis].after(ellipsis); */
-		pagesList[3].after(ellipsis);
+	// проверка на отображение первых элементов пагинатора
+	if (numberPage < 5) {
+		leftArrowPagination.setAttribute('disabled', true);
 	}
 	
 	pagesList.forEach(page => {
-		if ((Number(page.innerHTML) > 4) && (Number(page.innerHTML) < pagesList.length)) {
-			page.classList.add('our-projects__page_hidden');
+		page.classList.add('our-projects__page_hidden');
+		if (Number(page.innerHTML) >= numberPage && Number(page.innerHTML) < numberPage + 4) {
+			page.classList.remove('our-projects__page_hidden');
+		}
+		if (Number(page.innerHTML) >= numberPage && numberPage + 4 > pagesList.length) {
+			page.classList.remove('our-projects__page_hidden');
+			rightArrowPagination.setAttribute('disabled', true);
 		}
 	});
-}
+	pagesList[pagesList.length - 1].classList.remove('our-projects__page_hidden');
+
+	// проверка на отображение последних элементов пагинатора
+	if(!document.querySelector('.our-projects__ellipsis')) {
+		rightArrowPagination.setAttribute('disabled', true);
+	}
+} 
 
 // функция рендера пагинатора
-function renderPagination() {
+function renderPagination(step) {
+	const cardsList = Array.from(document.querySelectorAll('.project'));
+	const amountPages = cardsList.length / step;
+	const arrayPages = getArrayPages(amountPages);
+	createPagination(arrayPages);
+	showPagination(1);
+}
+
+// функция выбора карточек для отображения
+function selectCards(cardsList, numberPage, step) {
+	for (let i = 0; i < cardsList.length; i++) {
+		cardsList[i].classList.add('project_hidden');
+		cardsList[i].id = i + 1;
+		if (Number(cardsList[i].id) > numberPage * step - step && Number(cardsList[i].id) <= numberPage * step) {
+			cardsList[i].classList.remove('project_hidden');
+		}
+	}
+}
+
+// функция отображения карточек на странице
+function showCardsList(numberPage) {
+	const cardsList = Array.from(document.querySelectorAll('.project'));
+
 	if (document.documentElement.clientWidth < 768) {
-		const cardsList = Array.from(document.querySelectorAll('.project'));
-		const amountPages = cardsList.length / 2;
-		const arrayPages = getArrayPages(amountPages);
-		createPagination(arrayPages);
-		showPagination();	
+		selectCards(cardsList, numberPage, 4);
 	}
 	if (document.documentElement.clientWidth < 1440 && document.documentElement.clientWidth >= 768) {
-		const cardsList = Array.from(document.querySelectorAll('.project'));
-		const amountPages = cardsList.length / 4;
-		const arrayPages = getArrayPages(amountPages);
-		createPagination(arrayPages);
-		showPagination();
+		selectCards(cardsList, numberPage, 6);
 	}
 	if (document.documentElement.clientWidth >= 1440) {
-		const cardsList = Array.from(document.querySelectorAll('.project'));
-		const amountPages = cardsList.length / 8;
-		const arrayPages = getArrayPages(amountPages);
-		createPagination(arrayPages);
-		showPagination();
+		selectCards(cardsList, numberPage, 8);
 	}
 }
 
 // функция рендера пагинатора при клике на страницу
 function renderPaginationAfterClick(page) {
-	const pagesList = Array.from(document.querySelectorAll('.our-projects__page'));
-	const cardsList = Array.from(document.querySelectorAll('.project'));
+	const beforePage = document.querySelector('.our-projects__page_selected');
 	const numberPage = Number(page.innerHTML)
 	
-
-	console.log(cardsList)
-	//console.log(pagesList)
-	//console.log(page)
-	console.log(numberPage)
-
-	if (document.documentElement.clientWidth < 768) {
-		
-	}
+	beforePage.classList.remove('our-projects__page_selected');
+	page.classList.add('our-projects__page_selected');
+	showCardsList(numberPage);
 }
 
 // добавление карточек из массива
@@ -204,6 +233,9 @@ const cardProjectsList = new Section({
 );
 cardProjectsList.renderItems();
 
+// отображение карточек при загрузке страницы
+showCardsList(1);
+
 // фильтрация карточек проектов
 eventListenerFilter(filterButtonAll, '', projectsList);
 eventListenerFilter(filterButtonSpecial, 'special', projectsList);
@@ -216,14 +248,42 @@ buttonExpandFilter.addEventListener('click', _ => {
 });
 
 // рендер пагинатора
-renderPagination();
+if (document.documentElement.clientWidth < 768) {
+	renderPagination(4);
+}
+if (document.documentElement.clientWidth < 1440 && document.documentElement.clientWidth >= 768) {
+	renderPagination(6);
+}
+if (document.documentElement.clientWidth >= 1440) {
+	renderPagination(8);
+}
 
 // событие клика по левой стрелке пагинатора
 leftArrowPagination.addEventListener('click', _ => {
-	leftArrowPagination.classList.add('our-projects__button-arrow_pressed_left');
+	const pagesList = Array.from(document.querySelectorAll('.our-projects__page'));
+	const filterPagesList = pagesList.filter(page => !page.closest('.our-projects__page_hidden'));
+	const numberPage = Number(filterPagesList[0].innerHTML) - 4;
+	const amountPages = getArrayPages(pagesList.length);
+
+	leftArrowPagination.classList.remove('our-projects__button-arrow_pressed_left');
+	rightArrowPagination.removeAttribute('disabled');
+	createPagination(amountPages);
+	showPagination(numberPage);
 });
+leftArrowPagination.addEventListener('mousedown', 
+	_ => leftArrowPagination.classList.add('our-projects__button-arrow_pressed_left'));
 
 // событие клика по правой стрелке пагинатора
 rightArrowPagination.addEventListener('click', _ => {
-	rightArrowPagination.classList.add('our-projects__button-arrow_pressed_right');
+	const pagesList = Array.from(document.querySelectorAll('.our-projects__page'));
+	const filterPagesList = pagesList.filter(page => !page.closest('.our-projects__page_hidden'));
+	const numberPage = Number(filterPagesList[3].innerHTML) + 1;
+	const amountPages = getArrayPages(pagesList.length);
+
+	rightArrowPagination.classList.remove('our-projects__button-arrow_pressed_right');
+	leftArrowPagination.removeAttribute('disabled');
+	createPagination(amountPages);
+	showPagination(numberPage);
 });
+rightArrowPagination.addEventListener('mousedown', 
+	_ => rightArrowPagination.classList.add('our-projects__button-arrow_pressed_right'));
