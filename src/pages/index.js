@@ -3,7 +3,12 @@ import './index.css';
 import CardProject from '../components/CardProject';
 import Section from '../components/Section';
 import Page from '../components/Page';
-import { projectsList } from '../utils/constants';
+import { projectsList,
+				CARD_320,
+				CARD_768,
+				CARD_1440,
+				PAGE,
+				ELLIPSIS } from '../utils/constants';
 
 // our-projects
 const filterButtonAll = document.querySelector('.filter__item_all');
@@ -60,6 +65,7 @@ function addStyleFilter(button) {
 // слушатель событий для фильтров
 function eventListenerFilter(button, typeProject, projectsList) {
 	button.addEventListener('click', evt => {
+		rightArrowPagination.removeAttribute('disabled');
 		if (document.documentElement.clientWidth < 768) {
 			hendleselectFilterByMobile(evt);
 		}
@@ -67,13 +73,13 @@ function eventListenerFilter(button, typeProject, projectsList) {
 		handleFilterCardProject(typeProject, projectsList, evt);
 		// рендер пагинатора
 		if (document.documentElement.clientWidth < 768) {
-			renderPagination(4);
+			renderPagination(CARD_320);
 		}
 		if (document.documentElement.clientWidth < 1440 && document.documentElement.clientWidth >= 768) {
-			renderPagination(6);
+			renderPagination(CARD_768);
 		}
 		if (document.documentElement.clientWidth >= 1440) {
-			renderPagination(8);
+			renderPagination(CARD_1440);
 		}
 		// отображение карточек, соответствующих номеру страницы
 		showCardsList(1);
@@ -148,25 +154,26 @@ function showPagination(numberPage) {
 	ellipsis.classList.add('our-projects__ellipsis');
 	
 	// отображение многоточия после каждого четвертого видимого элемента
-	if (pagesList.length > 6 && numberPage < pagesList.length - 4) {
+	if (pagesList.length > PAGE && numberPage < pagesList.length - ELLIPSIS) {
 		pagesList[numberPage + 3].after(ellipsis);
 	}
 
-	// проверка на отображение первых элементов пагинатора
-	if (numberPage < 5) {
+	// проверка на отображение элементов пагинатора до многоточия
+	if (numberPage < PAGE - 1) {
 		leftArrowPagination.setAttribute('disabled', true);
 	}
 	
 	pagesList.forEach(page => {
 		page.classList.add('our-projects__page_hidden');
-		if (Number(page.innerHTML) >= numberPage && Number(page.innerHTML) < numberPage + 4) {
+		if (Number(page.innerHTML) >= numberPage && Number(page.innerHTML) < numberPage + ELLIPSIS) {
 			page.classList.remove('our-projects__page_hidden');
 		}
-		if (Number(page.innerHTML) >= numberPage && numberPage + 4 > pagesList.length) {
+		if (Number(page.innerHTML) >= numberPage && numberPage + ELLIPSIS > pagesList.length) {
 			page.classList.remove('our-projects__page_hidden');
 			rightArrowPagination.setAttribute('disabled', true);
 		}
 	});
+	// последний элемент всегда отображается
 	pagesList[pagesList.length - 1].classList.remove('our-projects__page_hidden');
 
 	// проверка на отображение последних элементов пагинатора
@@ -200,13 +207,13 @@ function showCardsList(numberPage) {
 	const cardsList = Array.from(document.querySelectorAll('.project'));
 
 	if (document.documentElement.clientWidth < 768) {
-		selectCards(cardsList, numberPage, 4);
+		selectCards(cardsList, numberPage, CARD_320);
 	}
 	if (document.documentElement.clientWidth < 1440 && document.documentElement.clientWidth >= 768) {
-		selectCards(cardsList, numberPage, 6);
+		selectCards(cardsList, numberPage, CARD_768);
 	}
 	if (document.documentElement.clientWidth >= 1440) {
-		selectCards(cardsList, numberPage, 8);
+		selectCards(cardsList, numberPage, CARD_1440);
 	}
 }
 
@@ -249,20 +256,21 @@ buttonExpandFilter.addEventListener('click', _ => {
 
 // рендер пагинатора
 if (document.documentElement.clientWidth < 768) {
-	renderPagination(4);
+	renderPagination(CARD_320);
 }
 if (document.documentElement.clientWidth < 1440 && document.documentElement.clientWidth >= 768) {
-	renderPagination(6);
+	renderPagination(CARD_768);
 }
 if (document.documentElement.clientWidth >= 1440) {
-	renderPagination(8);
+	renderPagination(CARD_1440);
 }
 
 // событие клика по левой стрелке пагинатора
 leftArrowPagination.addEventListener('click', _ => {
 	const pagesList = Array.from(document.querySelectorAll('.our-projects__page'));
 	const filterPagesList = pagesList.filter(page => !page.closest('.our-projects__page_hidden'));
-	const numberPage = Number(filterPagesList[0].innerHTML) - 4;
+	// от первого видимого элемента возвращаемся назад до следующего многоточия
+	const numberPage = Number(filterPagesList[0].innerHTML) - ELLIPSIS;
 	const amountPages = getArrayPages(pagesList.length);
 
 	leftArrowPagination.classList.remove('our-projects__button-arrow_pressed_left');
@@ -277,7 +285,8 @@ leftArrowPagination.addEventListener('mousedown',
 rightArrowPagination.addEventListener('click', _ => {
 	const pagesList = Array.from(document.querySelectorAll('.our-projects__page'));
 	const filterPagesList = pagesList.filter(page => !page.closest('.our-projects__page_hidden'));
-	const numberPage = Number(filterPagesList[3].innerHTML) + 1;
+	// от последнего видимого элемента переходим вперед на страницу сразу после многоточия
+	const numberPage = Number(filterPagesList[ELLIPSIS - 1].innerHTML) + 1;
 	const amountPages = getArrayPages(pagesList.length);
 
 	rightArrowPagination.classList.remove('our-projects__button-arrow_pressed_right');
