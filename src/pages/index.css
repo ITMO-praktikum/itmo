@@ -33,4 +33,7 @@
 @import url(../blocks/our-projects/__page/_hidden/our-projects__page_hidden.css);
 @import url(../blocks/our-projects/__page/_selected/our-projects__page_selected.css);
 @import url(../blocks/our-projects/__page/our-projects__page.css);
+@import url(../blocks/our-projects/__ellipsis/our-projects__ellipsis.css);
 @import url(../blocks/our-projects/__button-arrow/_direction_right/our-projects__button-arrow_direction_right.css);
+@import url(../blocks/our-projects/__button-arrow/_pressed_left/our-projects__button-arrow_pressed_left.css);
+@import url(../blocks/our-projects/__button-arrow/_pressed_right/our-projects__button-arrow_pressed_right.css);

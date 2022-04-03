@@ -276,4 +276,454 @@ export const projectsList = [
 		id: 30,
 		typeProject: 'development'
   },
+  {
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 31,
+		typeProject: 'national'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 32,
+		typeProject: 'national'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 33,
+		typeProject: 'national'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 34,
+		typeProject: 'national'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 35,
+		typeProject: 'national'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 36,
+		typeProject: 'national'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 37,
+		typeProject: 'national'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 38,
+		typeProject: 'national'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 39,
+		typeProject: 'national'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 40,
+		typeProject: 'national'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 41,
+		typeProject: 'special'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 42,
+		typeProject: 'special'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 43,
+		typeProject: 'special'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 44,
+		typeProject: 'special'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 45,
+		typeProject: 'special'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 46,
+		typeProject: 'special'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 47,
+		typeProject: 'special'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 48,
+		typeProject: 'special'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 49,
+		typeProject: 'special'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 50,
+		typeProject: 'special'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 51,
+		typeProject: 'development'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 52,
+		typeProject: 'development'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 53,
+		typeProject: 'development'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 54,
+		typeProject: 'development'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 55,
+		typeProject: 'development'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 56,
+		typeProject: 'development'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 57,
+		typeProject: 'development'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 58,
+		typeProject: 'development'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 59,
+		typeProject: 'development'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 60,
+		typeProject: 'development'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 61,
+		typeProject: 'special'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 62,
+		typeProject: 'special'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 63,
+		typeProject: 'special'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 64,
+		typeProject: 'special'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 65,
+		typeProject: 'special'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 66,
+		typeProject: 'special'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 67,
+		typeProject: 'special'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 68,
+		typeProject: 'special'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 69,
+		typeProject: 'special'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 70,
+		typeProject: 'special'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 71,
+		typeProject: 'development'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 72,
+		typeProject: 'development'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 73,
+		typeProject: 'development'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 74,
+		typeProject: 'development'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 75,
+		typeProject: 'development'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 76,
+		typeProject: 'development'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 77,
+		typeProject: 'development'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 78,
+		typeProject: 'development'
+	},
+	{
+		name: 'Gazprom',
+		logoLight: logoGazpromLight,
+		logoDark: logoGazpromDark,
+		backgroundImage: backgroundGazprom,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 79,
+		typeProject: 'development'
+	},
+	{
+		name: 'Sberbank',
+		logoLight: logoSberbankLight,
+		logoDark: logoSberbankDark,
+		backgroundImage: backgroundSberbank,
+		deskription: 'Направление включает в себя исследования и разработки технологий МО и КТ.',
+		id: 80,
+		typeProject: 'development'
+	},
 ];
