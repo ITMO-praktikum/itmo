@@ -1,3 +1,6 @@
+* {
+  border: 1px solid red;
+}
 .header {
   display: flex;
   max-width: 320px;

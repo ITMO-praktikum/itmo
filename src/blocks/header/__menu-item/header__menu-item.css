@@ -1,8 +1,0 @@
-.header__menu-item {
-  padding-left: 16px;
-  transition: .5s background;
-}
-.header__menu-item:hover {
-  background-color: #001337;
-  transition: .5s background;
-}

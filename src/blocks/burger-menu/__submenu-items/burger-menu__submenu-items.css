@@ -1,8 +1,0 @@
-.burger-menu__submenu-items {
-  list-style-type: none;
-  padding: 0;
-  display: none;
-}
-.burger-menu__submenu-items_active {
-  display: block;
-}
