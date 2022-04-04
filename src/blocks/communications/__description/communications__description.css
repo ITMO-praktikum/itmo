@@ -1,0 +1,27 @@
+.communications__description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: white;
+  margin: 0 0 23px 0;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .communications__description {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    margin-bottom: 37px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .communications__description {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 98px;
+    margin-bottom: 60px;
+  }
+}

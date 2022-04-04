@@ -1,75 +1,106 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= htmlWebpackPlugin.options.title %></title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
 
-<body class="root">
-  <!-- header -->
-  <!-- Исполнитель: MIKE -->
-  <header class="header">
-    1
-  </header>
+  <body class="root">
+    <!-- header -->
+    <!-- Исполнитель: MIKE -->
+    <header class="header"></header>
 
-  <!-- Когнитивные технологии, машинное обучение -->
-  <!-- Исполнитель:  -->
-  <section class="intro">
-  </section>
+    <!-- Когнитивные технологии, машинное обучение -->
+    <!-- Исполнитель:  -->
+    <section class="intro"></section>
 
-  <!-- НЕСКОЛЬКО СЛОВ О НАС -->
-  <!-- Исполнитель: Илья -->
-  <section class="about-us">
+    <!-- НЕСКОЛЬКО СЛОВ О НАС -->
+    <!-- Исполнитель: Илья -->
+    <section class="about-us"></section>
 
-  </section>
+    <!-- INDUSTRIAL AI RESEARCH LAB -->
+    <!-- Исполнитель:  -->
+    <section class="research"></section>
 
-  <!-- INDUSTRIAL AI RESEARCH LAB -->
-  <!-- Исполнитель:  -->
-  <section class="research">
+    <!-- НАШИ ПРОЕКТЫ -->
+    <!-- Исполнитель:  -->
+    <section class="our-projects"></section>
 
-  </section>
+    <!-- ОБРАЗОВАНИЕ -->
+    <!-- Исполнитель:  -->
+    <section class="education"></section>
 
-  <!-- НАШИ ПРОЕКТЫ -->
-  <!-- Исполнитель:  -->
-  <section class="our-projects">
+    <!-- ПУБЛИКАЦИИ -->
+    <!-- Исполнитель:  -->
+    <section class="publications"></section>
 
-  </section>
+    <!-- НАША КОМАНДА -->
+    <!-- Исполнитель:  -->
+    <section class="our-team"></section>
 
-  <!-- ОБРАЗОВАНИЕ -->
-  <!-- Исполнитель:  -->
-  <section class="education">
+    <!-- с кем мы работаем -->
+    <!-- Исполнитель:  -->
+    <section class="partners"></section>
 
-  </section>
+    <!-- ВСЕГДА НА СВЯЗИ -->
+    <!-- Исполнитель: Илья -->
+    <section class="communications">
+      <h2 class="communications__title">ВСЕГДА НА СВЯЗИ</h2>
+      <p class="communications__description">
+        По&nbsp;всем интересующим вас вопросам вы&nbsp;всегда можете обратиться
+        по указанным телефонам, написать на&nbsp;почту или оставить свое
+        сообщение через форму обратной связи.
+      </p>
+      <form action="#" class="communications__form" name="communicationsForm">
+        <input
+          class="communications__input communications__input_name"
+          type="text"
+          minlength="2"
+          maxlength="20"
+          name="name"
+          placeholder="Имя"
+        />
+        <input
+          class="communications__input communications__input_surname"
+          type="text"
+          minlength="2"
+          maxlength="30"
+          name="surname"
+          placeholder="Фамилия"
+        />
+        <input
+          class="communications__input communications__input_phone"
+          type="tel"
+          minlength="2"
+          maxlength="20"
+          name="phone"
+          placeholder="Телефон"
+        />
+        <input
+          class="communications__input communications__input_email"
+          required
+          type="email"
+          minlength="2"
+          maxlength="20"
+          name="email"
+          placeholder="E-mail"
+        />
+        <textarea
+          class="communications__input communications__input_message"
+          required
+          minlength="2"
+          maxlength="1000"
+          name="message"
+          placeholder="Сообщение"
+        ></textarea>
+        <button class="communications__submit">отправить</button>
+      </form>
+    </section>
 
-  <!-- ПУБЛИКАЦИИ -->
-  <!-- Исполнитель:  -->
-  <section class="publications">
-
-  </section>
-
-  <!-- НАША КОМАНДА -->
-  <!-- Исполнитель:  -->
-  <section class="our-team">
-
-  </section>
-
-  <!-- с кем мы работаем -->
-  <!-- Исполнитель:  -->
-  <section class="partners">
-
-  </section>
-
-  <!-- ВСЕГДА НА СВЯЗИ -->
-  <!-- Исполнитель:  -->
-  <section class="communications">
-  </section>
-
-  <!-- FOOTER -->
-  <!-- Исполнитель: MIKE -->
-  <footer class="footer">
-
-  </footer>
-</body>
+    <!-- FOOTER -->
+    <!-- Исполнитель: MIKE -->
+    <footer class="footer"></footer>
+  </body>
 </html>
