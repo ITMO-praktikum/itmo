@@ -1,0 +1,8 @@
+.news-card__date {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(0, 159, 172, 1);
+    padding-bottom: 8px;
+}

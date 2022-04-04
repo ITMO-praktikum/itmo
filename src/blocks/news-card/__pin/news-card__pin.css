@@ -1,0 +1,8 @@
+.news-card__pin {
+    background: url("../../../images/pin.svg") no-repeat;
+    width: 24px;
+    height: 31px;
+    position: absolute;
+    top: -12px;
+    right: -6px;
+}

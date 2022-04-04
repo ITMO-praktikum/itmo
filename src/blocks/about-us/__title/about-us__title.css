@@ -1,0 +1,10 @@
+.about-us__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+  padding: 2px 0 0 0;
+}

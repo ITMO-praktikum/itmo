@@ -1,75 +1,127 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= htmlWebpackPlugin.options.title %></title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
 
-<body class="root">
-  <!-- header -->
-  <!-- Исполнитель: MIKE -->
-  <header class="header">
-    12345
-  </header>
+  <body class="root">
+    <!-- header -->
+    <!-- Исполнитель: MIKE -->
+    <header class="header">12345</header>
 
-  <!-- Когнитивные технологии, машинное обучение -->
-  <!-- Исполнитель:  -->
-  <section class="intro">
-  </section>
+    <!-- Когнитивные технологии, машинное обучение -->
+    <!-- Исполнитель:  -->
+    <section class="intro"></section>
 
-  <!-- НЕСКОЛЬКО СЛОВ О НАС -->
-  <!-- Исполнитель: Илья -->
-  <section class="about-us">
+    <!-- НЕСКОЛЬКО СЛОВ О НАС -->
+    <!-- Исполнитель: Илья -->
+    <section class="about-us">
+      <h2 class="about-us__title">Несколько слов о нас</h2>
+      <p class="about-us__subtitle">
+        Национальный центр когнитивных разработок – центр национальной
+        технологической инициативы (НТИ), получивший государственную поддержку
+        по направлению «Технологии машинного обучения и когнитивные технологии».
+      </p>
+      <!-- Slider main container -->
+      <div class="about-us__swiper swiper">
+        <!-- Additional required wrapper -->
+        <div class="about-us__swiper-wrapper swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <article class="news-card">
+              <div class="news-card__pin"></div>
+              <span class="news-card__date">Понедельник, 5 июля 2021г</span>
+              <h3 class="news-card__title">
+                ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НА sdjsh
+                sdjhkshkdshkj
+              </h3>
+              <p class="news-card__subtitle">
+                Университет ИТМО провел научно-исследовательскую стажировку для
+                группы магистрантов из&nbsp;Евразийского национального
+                университета имени Л.Н. Гумилева. Ведущие преподаватели
+                в&nbsp;течение десяти дней рассказывали им&nbsp;об&nbsp;основах
+                машинного обучения.
+              </p>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="news-card">
+              <div class="news-card__pin"></div>
+              <span class="news-card__date">Понедельник, 5 июля 2021г</span>
+              <h3 class="news-card__title">
+                ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НА sdjsh
+                sdjhkshkdshkj
+              </h3>
+              <p class="news-card__subtitle">
+                Университет ИТМО провел научно-исследовательскую стажировку для
+                группы магистрантов из&nbsp;Евразийского национального
+                университета имени Л.Н. Гумилева. Ведущие преподаватели
+                в&nbsp;течение десяти дней рассказывали им&nbsp;об&nbsp;основах
+                машинного обучения.
+              </p>
+            </article>
+          </div>
+          <div class="swiper-slide">
+            <article class="news-card">
+              <div class="news-card__pin"></div>
+              <span class="news-card__date">Понедельник, 5 июля 2021г</span>
+              <h3 class="news-card__title">
+                ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НА sdjsh
+                sdjhkshkdshkj
+              </h3>
+              <p class="news-card__subtitle">
+                Университет ИТМО провел научно-исследовательскую стажировку для
+                группы магистрантов из&nbsp;Евразийского национального
+                университета имени Л.Н. Гумилева. Ведущие преподаватели
+                в&nbsp;течение десяти дней рассказывали им&nbsp;об&nbsp;основах
+                машинного обучения.
+              </p>
+            </article>
+          </div>
+        </div>
+        <div class="about-us__swiper-pagination swiper-pagination"></div>
+      </div>
+    </section>
 
-  </section>
+    <!-- INDUSTRIAL AI RESEARCH LAB -->
+    <!-- Исполнитель:  -->
+    <section class="research"></section>
 
-  <!-- INDUSTRIAL AI RESEARCH LAB -->
-  <!-- Исполнитель:  -->
-  <section class="research">
+    <!-- НАШИ ПРОЕКТЫ -->
+    <!-- Исполнитель:  -->
+    <section class="our-projects"></section>
 
-  </section>
+    <!-- ОБРАЗОВАНИЕ -->
+    <!-- Исполнитель:  -->
+    <section class="education"></section>
 
-  <!-- НАШИ ПРОЕКТЫ -->
-  <!-- Исполнитель:  -->
-  <section class="our-projects">
+    <!-- ПУБЛИКАЦИИ -->
+    <!-- Исполнитель:  -->
+    <section class="publications"></section>
 
-  </section>
+    <!-- НАША КОМАНДА -->
+    <!-- Исполнитель:  -->
+    <section class="our-team"></section>
 
-  <!-- ОБРАЗОВАНИЕ -->
-  <!-- Исполнитель:  -->
-  <section class="education">
+    <!-- с кем мы работаем -->
+    <!-- Исполнитель:  -->
+    <section class="partners"></section>
 
-  </section>
+    <!-- ВСЕГДА НА СВЯЗИ -->
+    <!-- Исполнитель:  -->
+    <section class="communications"></section>
 
-  <!-- ПУБЛИКАЦИИ -->
-  <!-- Исполнитель:  -->
-  <section class="publications">
-
-  </section>
-
-  <!-- НАША КОМАНДА -->
-  <!-- Исполнитель:  -->
-  <section class="our-team">
-
-  </section>
-
-  <!-- с кем мы работаем -->
-  <!-- Исполнитель:  -->
-  <section class="partners">
-
-  </section>
-
-  <!-- ВСЕГДА НА СВЯЗИ -->
-  <!-- Исполнитель:  -->
-  <section class="communications">
-  </section>
-
-  <!-- FOOTER -->
-  <!-- Исполнитель: MIKE -->
-  <footer class="footer">
-
-  </footer>
-</body>
+    <!-- FOOTER -->
+    <!-- Исполнитель: MIKE -->
+    <footer class="footer"></footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  </body>
 </html>
