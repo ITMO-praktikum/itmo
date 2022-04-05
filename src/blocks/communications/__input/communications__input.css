@@ -1,6 +1,6 @@
 .communications__input {
   box-sizing: border-box;
-  min-height: 44px;
+  height: 44px;
   background: white;
   border: none;
   border-radius: 5px;
@@ -27,7 +27,7 @@
 
 @media (min-width: 1440px) {
   .communications__input {
-    min-height: 60px;
+    height: 60px;
     padding: 19px 20px;
     font-size: 18px;
     line-height: 20px;

@@ -1,6 +1,6 @@
 .communications__submit {
   min-height: 44px;
-  border: 1px solid #ffffff;
+  border: 1px solid white;
   box-sizing: border-box;
   border-radius: 5px;
   padding: 0;
@@ -12,6 +12,11 @@
   font-size: 14px;
   line-height: 19px;
   text-transform: uppercase;
+}
+
+.communications__submit:hover {
+  border-color: rgba(224, 240, 255, 1);
+  color: rgba(224, 240, 255, 1);
 }
 
 @media (min-width: 768px) {
