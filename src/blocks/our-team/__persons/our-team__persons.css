@@ -1,0 +1,7 @@
+.our-team__persons {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto 0;
+  column-gap: 8px;
+}

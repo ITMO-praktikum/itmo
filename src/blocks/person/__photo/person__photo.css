@@ -1,0 +1,7 @@
+.person__photo {
+  display: block;
+	width: 120px;
+	height: 160px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}

@@ -1,0 +1,10 @@
+.person__name {
+  font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	text-align: center;
+	letter-spacing: 0.0588372px;
+	max-width: 73px;
+	margin: 10px auto 0;
+}

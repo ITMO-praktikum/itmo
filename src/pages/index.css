@@ -4,3 +4,12 @@
 @import url(../vendor/OpenSans/opensans.css); 
 /* root */ 
 @import url(../blocks/root/root.css); 
+
+/*НАША КОМАНДА*/
+@import url(../blocks/our-team/our-team.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/our-team/__persons/our-team__persons.css);
+@import url(../blocks/person/person.css);
+@import url(../blocks/person/__photo/person__photo.css);
+@import url(../blocks/person/__name/person__name.css);
+@import url(../blocks/person/__position/person__position.css);

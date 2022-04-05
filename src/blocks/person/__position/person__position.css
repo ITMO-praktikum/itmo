@@ -1,0 +1,8 @@
+.person__position {
+  font-style: italic;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 1.4;
+	color: #009FAC;
+	margin: 5px auto 0;
+}
