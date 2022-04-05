@@ -1,0 +1,16 @@
+.communications__input_message {
+  min-height: 140px;
+  grid-area: message;
+}
+
+@media (min-width: 768px) {
+  .communications__input_message {
+    min-height: 108px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .communications__input_message {
+    min-height: 140px;
+  }
+}

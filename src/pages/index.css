@@ -1,6 +1,19 @@
-/* normalize */ 
-@import url(../vendor/normalize.css); 
-/* fonts */ 
-@import url(../vendor/OpenSans/opensans.css); 
-/* root */ 
-@import url(../blocks/root/root.css); 
+/* normalize */
+@import url(../vendor/normalize.css);
+/* fonts */
+@import url(../vendor/OpenSans/opensans.css);
+/* root */
+@import url(../blocks/root/root.css);
+
+/* communications */
+@import url(../blocks/communications/communications.css);
+@import url(../blocks/communications/__title/communications__title.css);
+@import url(../blocks/communications/__description/communications__description.css);
+@import url(../blocks/communications/__form/communications__form.css);
+@import url(../blocks/communications/__input/communications__input.css);
+@import url(../blocks/communications/__input/_type/communications__input_type_name.css);
+@import url(../blocks/communications/__input/_type/communications__input_type_surname.css);
+@import url(../blocks/communications/__input/_type/communications__input_type_phone.css);
+@import url(../blocks/communications/__input/_type/communications__input_type_email.css);
+@import url(../blocks/communications/__input/_type/communications__input_type_message.css);
+@import url(../blocks/communications/__submit/communications__submit.css);

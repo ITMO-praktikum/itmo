@@ -1,0 +1,21 @@
+.communications__form {
+  display: grid;
+  grid-template-areas:
+    "name"
+    "surname"
+    "phone"
+    "email"
+    "message"
+    "submit";
+  gap: 12px 0;
+}
+
+@media (min-width: 768px) {
+  .communications__form {
+    grid-template-areas:
+      "name surname message"
+      "phone email message"
+      ". submit .";
+    gap: 20px 29px;
+  }
+}

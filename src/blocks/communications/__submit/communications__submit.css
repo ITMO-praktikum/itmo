@@ -1,0 +1,36 @@
+.communications__submit {
+  min-height: 44px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0;
+  margin-top: 11px;
+  grid-area: submit;
+  color: white;
+  background-color: rgba(0, 159, 172, 1);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.communications__submit:hover {
+  border-color: rgba(224, 240, 255, 1);
+  color: rgba(224, 240, 255, 1);
+}
+
+@media (min-width: 768px) {
+  .communications__submit {
+    border-radius: 10px;
+    margin-top: 17px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .communications__submit {
+    min-width: 350px;
+    min-height: 60px;
+  }
+}
