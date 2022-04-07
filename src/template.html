@@ -54,7 +54,7 @@
   <section class="our-team">
     <h2 class="section-title">НАША КОМАНДА</h2>
     <ul class="our-team__persons">
-      <li class="person">
+      <!-- <li class="person">
         <img src="<%=require('./images/person-bobtsov.png')%>" alt="Бобцов Алексей Алексеевич" class="person__photo">
         <h3 class="person__name">Бобцов <span class="person__span-transposition">Алексей Алексеевич</span></h3>
         <p class="person__position">Директор,<span class="person__span-position"> профессор,</span> ДТН</p>
@@ -72,7 +72,7 @@
       <li class="person">
         <img src="<%=require('./images/person-bobtsov.png')%>" alt="Бобцов Алексей Алексеевич" class="person__photo">
         <h3 class="person__name">Бобцов Алексей Алексеевич</h3>
-        <p class="person__position">Директор, ДТН</p>
+        <p class="person__position">Директор, ДТН</p> -->
       </li>
     </ul>
   </section>
@@ -94,4 +94,11 @@
 
   </footer>
 </body>
+<template id="team-person">
+  <li class="person">
+    <img class="person__photo">
+    <h3 class="person__name"><!-- <span class="person__span-transposition"></span> --></h3>
+    <p class="person__position"><!-- <span class="person__span-position"></span> --></p>
+  </li>
+</template>
 </html>
