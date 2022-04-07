@@ -1,0 +1,26 @@
+.popup__img{
+    width: 268px;
+    height: 160px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+    grid-area: img;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 768px){
+    .popup__img {
+        width: 199px;
+        height: 414px;
+        grid-area: img;
+    }
+}
+
+@media (min-width: 1440px){
+    .popup__img{
+        width: 400px;
+        height: 678px;
+        grid-area: img;
+    }
+}

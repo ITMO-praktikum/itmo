@@ -1,0 +1,17 @@
+.research__container-photo {
+grid-row: 1;
+}
+@media (min-width:768px){
+    .research__container-photo{
+        grid-column: 2;
+    }
+}
+
+@media (min-width: 1440px){
+    .research__container-photo {
+        width: 540px;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+}
+}

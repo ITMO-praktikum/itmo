@@ -1,0 +1,29 @@
+.education__container {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+
+@media(min-width:768px) {
+    .education__container {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 30px;
+        flex-direction: row-reverse;
+    }
+}
+
+@media(min-width:1440px) {
+    .education__container {
+        padding: 30px;
+        margin-bottom: 35px;
+        width: 1169px;
+    }
+}
+

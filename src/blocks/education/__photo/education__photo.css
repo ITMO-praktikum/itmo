@@ -1,0 +1,25 @@
+.education__photo{
+    width: 256px;
+    height: 160px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    order: -1;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+@media(min-width:768px){
+    .education__photo{
+        width: 280px;
+        height: 282px;
+        border-radius: 10px;
+        margin-bottom: 0;
+    }
+}
+
+@media(min-width:1440px){
+    .education__photo{
+        width: 445px;
+        height: 364px;
+    }
+}

@@ -1,0 +1,18 @@
+.education {
+    font-family: 'Open Sans';
+    padding: 40px 16px;
+    background: #009FAC;
+    margin: 0 auto 0;
+}
+
+@media (min-width: 768px){
+    .education{
+        padding: 60px 39px;
+    }
+}
+
+@media (min-width: 1440px){
+    .education{
+        padding: 80px 136px;
+    }
+}

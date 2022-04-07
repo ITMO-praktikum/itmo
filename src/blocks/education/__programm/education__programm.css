@@ -1,0 +1,17 @@
+.education__programm{
+    max-width: 288px;
+    margin: 0 auto;
+    position: relative;
+}
+@media (min-width:768px){
+    .education__programm{
+        max-width: 690px;
+    }
+}
+
+@media (min-width:1440px){
+    .education__programm{
+        width: 1169px;
+        margin: 0;
+    }
+}

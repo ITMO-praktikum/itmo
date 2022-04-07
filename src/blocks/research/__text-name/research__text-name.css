@@ -1,0 +1,26 @@
+.research__text-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000D26;
+    margin: 0;
+    padding: 0 0 20px;
+}
+
+@media (min-width:768px){
+    .research__text-name {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+    }
+}
+
+@media (min-width:1440px){
+    .research__text-name {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,26 @@
+.education__button-container{
+    width: 288px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #E0F0FF;
+    box-sizing: border-box;
+}
+
+@media(min-width:768px){
+    .education__button-container{
+        width: 450px;
+        height: 44px;
+        border-radius: 10px;
+    }
+}
+@media(min-width:1440px){
+    .education__button-container{
+        width: 540px;
+        height: 60px;
+    }
+}
+

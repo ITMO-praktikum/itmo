@@ -1,0 +1,15 @@
+.education__text-title{
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    margin-bottom: 27px;
+    padding: 0;
+    margin-top: 0;
+}
+
+@media(min-width:768px){
+    .education__text-title{
+        font-weight: 600;
+        margin-bottom: 23px;
+    }
+}

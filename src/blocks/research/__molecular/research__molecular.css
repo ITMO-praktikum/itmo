@@ -1,0 +1,14 @@
+.research__molecular {
+    display: none;
+}
+
+
+@media (min-width:1440px){
+.research__molecular{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: -36px;
+    top:0;
+}
+}

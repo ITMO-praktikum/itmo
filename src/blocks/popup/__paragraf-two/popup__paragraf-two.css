@@ -1,0 +1,8 @@
+.popup__paragraf-two{
+    display: none;
+}
+@media (min-width:768px){
+    .popup__paragraf-two{
+        display: block;
+    }
+}

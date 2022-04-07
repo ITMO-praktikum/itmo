@@ -1,0 +1,24 @@
+.research__container {
+    display: grid;
+    row-gap: 20px;
+    margin: 0 auto 20px;
+    padding: 0;
+    max-width: 288px;
+}
+@media (min-width: 768px) {
+    .research__container {
+        max-width: 690px;
+        grid-template-columns: repeat(2, 330px);
+        column-gap: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 1440px){
+    .research__container{
+        max-width: 1146px;
+        grid-template-columns: 576px 540px;
+        column-gap: 30px;
+        margin-bottom: 80px;
+    }
+}

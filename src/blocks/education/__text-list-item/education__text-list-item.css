@@ -1,0 +1,14 @@
+
+@media(min-width:768px){
+.education__text-list-item{
+    letter-spacing: 0.1px;
+    line-height: 20px;
+}
+}
+
+@media(min-width:1440px){
+    .education__text-list-item{
+        letter-spacing: 0.1px;
+        line-height: 30px;
+    }
+    }

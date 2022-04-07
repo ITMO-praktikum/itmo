@@ -1,0 +1,18 @@
+.education__text-list{
+    margin-bottom: 16px;
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+@media(min-width:768px){
+    .education__text-list{
+        margin-bottom: 20px;
+    padding-left: 20px;
+    }
+}
+
+@media(min-width:1440px){
+    .education__text-list{
+        margin-bottom: 38px;
+    padding-left: 30px;
+    }
+}

@@ -1,0 +1,13 @@
+@media (min-width:1440px){
+    .research__photo2{
+        width: 264px;
+        height: 276px;
+        padding: 0;
+        background-size: cover;
+        background-image: url('../../../images/image38.png');
+        overflow: hidden;
+        border-radius: 5px;
+        
+    }
+    
+}

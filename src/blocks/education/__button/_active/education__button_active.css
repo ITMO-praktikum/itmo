@@ -1,0 +1,16 @@
+.education__button_active {
+    width: 53%;
+    height: 103%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E0F0FF;
+    border-radius: 5px;
+    color: #000D26;
+    transform: scale(1.01);
+}
+@media(min-width:768px){
+    .education__button_active{
+        border-radius: 10px;
+    }
+}

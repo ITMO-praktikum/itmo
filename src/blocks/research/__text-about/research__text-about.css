@@ -1,0 +1,28 @@
+.research__text-about {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000D26;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+@media (min-width:768px) {
+    .research__text-about {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.1px
+    }
+}
+
+@media (min-width:1440px){
+    .research__text-about{
+        font-size: 18px;
+        line-height: 26px;
+       
+    }
+}

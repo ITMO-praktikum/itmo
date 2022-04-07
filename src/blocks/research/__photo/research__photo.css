@@ -1,0 +1,28 @@
+.research__photo {
+    width: 288px;
+    height: 180px;
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-image: url('../../../images/research.jpg');
+    overflow: hidden;
+    border-radius: 5px;
+    grid-row: 1;
+}
+
+@media (min-width: 768px) {
+    .research__photo {
+        width: 330px;
+        height: 240px;
+        grid-column: 2;
+    }
+}
+
+@media (min-width: 1440px){
+    .research__photo {
+        background-image: url('../../../images/image35.png');
+        width: 264px;
+        height: 276px;
+        
+    }
+}

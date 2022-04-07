@@ -1,0 +1,28 @@
+.education__text{
+    font-family: 'Open Sans';
+    width: 256px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.0588372px;
+    color: #000D26;
+    margin-right: 0;
+    order: 1;
+}
+
+@media(min-width:768px){
+    .education__text{
+        width: 340px;
+        
+    }
+}
+
+@media(min-width:1440px){
+    .education__text{
+        width: 635px;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.1px;
+    }
+}

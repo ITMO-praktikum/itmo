@@ -1,0 +1,27 @@
+.popup__text{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    grid-area: text;
+}
+@media (min-width: 768px){
+    .popup__text {
+        font-size: 14px;
+        line-height: 19px;
+        grid-area: text;
+        margin: 20px 0 0;
+    }
+}
+
+@media (min-width: 1440px){
+    .popup__text{
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.1px;
+        grid-area: text;
+    }
+}

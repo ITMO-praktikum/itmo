@@ -1,0 +1,31 @@
+.research__item-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    object-fit: cover;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+    border-radius: 36px;
+}
+
+@media (min-width: 768px){
+    .research__item-icon{
+        width: 41.19px;
+        height: 41.19px;
+        box-shadow: 0px 2.35349px 11.7674px rgba(1, 54, 157, 0.15);
+        border-radius: 21.1814px;
+    }
+}
+
+@media (min-width: 1440px){
+    .research__item-icon{
+        width: 70px;
+        height: 70px;
+        border-radius: 36px;
+        backdrop-filter: blur(20px);
+    }
+}

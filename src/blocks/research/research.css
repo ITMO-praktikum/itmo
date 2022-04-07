@@ -1,0 +1,19 @@
+.research {
+    font-family: 'Open Sans';
+    padding: 40px 16px;
+    background-color: #E0F0FF;
+    margin: 0 auto 0;
+}
+
+@media (min-width: 768px) {
+    .research {
+        padding: 60px 39px;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .research {
+        padding: 80px 165px 80px 129px;
+    }
+}

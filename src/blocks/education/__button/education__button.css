@@ -1,0 +1,26 @@
+.education__button{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    width: 50%;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans';
+    
+}
+@media(min-width:768px){
+    .education__button{
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media(min-width:1440px){
+    .education__button{
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+

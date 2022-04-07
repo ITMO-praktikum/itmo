@@ -1,0 +1,43 @@
+
+.popup__container {
+    max-width: 300px;
+    padding: 16px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: grid;  
+    grid-template-columns: 268px;
+    gap: 10px;
+    font-family: 'OpenSans';
+    position: relative;
+    grid-template-areas:
+        'title'
+        'img'
+        'text';
+}
+
+
+@media (min-width: 768px){
+    .popup__container {
+        max-width: 690px;
+        padding: 20px; 
+        grid-template-columns: 199px 431px;
+        column-gap: 20px;
+        row-gap: 0;
+        grid-template-rows: 19px;
+    grid-template-areas:
+        'img title'
+        'img text';
+}
+}
+
+@media (min-width: 1440px){
+    .popup__container {
+        max-width: 1110px;    
+        grid-template-columns: 400px 650px;
+        row-gap: 0;
+    grid-template-rows: 30px;
+    grid-template-areas:
+        'img title'
+        'img text';
+}
+}

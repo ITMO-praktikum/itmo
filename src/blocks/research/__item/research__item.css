@@ -1,0 +1,90 @@
+.research__item {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 5.45566px;
+    padding: 10px;
+    margin: auto;
+    display: grid;
+    row-gap: 16px;
+    justify-items: center;
+    box-sizing: border-box;
+    color: #001337;
+    background-size: cover;
+}
+
+
+
+.research__item:first-of-type{
+    background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url('../../../images/Back_Project.png');
+}
+
+.research__item:nth-of-type(2){
+    background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url('../../../images/Back_Machine.png');
+}
+
+.research__item:nth-of-type(3){
+    background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url('../../../images/Back_Data.png');
+}
+
+.research__item:last-of-type{
+    background-image: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url('../../../images/Back_Robot.png');
+}
+
+.research__item:first-of-type:hover{
+    background-color: #009FAC;
+    color:#fff;
+    background-image: linear-gradient(180deg, #009FAC 0%, rgba(0, 159, 172, 0) 100%), url('../../../images/Back_Project.png');
+}
+
+.research__item:nth-of-type(2):hover{
+    background-color: #009FAC;
+    color:#fff;
+    background-image: linear-gradient(180deg, #009FAC 0%, rgba(0, 159, 172, 0) 100%), url('../../../images/Back_Machine.png');
+}
+
+.research__item:nth-of-type(3):hover{
+    background-color: #009FAC;
+    color:#fff;
+    background-image: linear-gradient(180deg, #009FAC 0%, rgba(0, 159, 172, 0) 100%), url('../../../images/Back_Data.png');
+}
+
+.research__item:last-of-type:hover{
+    background-color: #009FAC;
+    color:#fff;
+    background-image: linear-gradient(180deg, #009FAC 0%, rgba(0, 159, 172, 0) 100%), url('../../../images/Back_Robot.png');
+}
+
+.research__item:hover .research__item-button {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #009FAC;
+}
+
+
+
+@media (min-width: 768px){
+    .research__item{
+        padding: 12px;
+        row-gap: 20px;
+        box-shadow: 0px 2.35349px 11.7674px rgba(1, 54, 157, 0.15);
+        border-radius: 5.88372px;
+        min-height: 242px;
+    
+    }
+    .research__item:hover{
+        transform: translateY(-10px);
+    }
+}
+
+@media (min-width: 1440px){
+    .research__item{
+        box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
+        border-radius: 10px;
+        padding: 30px 20px 20px;
+        row-gap: 50px;
+        
+    }
+    .research__item:hover{
+        transform: translateY(-20px);
+    }
+}

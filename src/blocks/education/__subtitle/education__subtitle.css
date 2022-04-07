@@ -1,0 +1,27 @@
+.education__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0 auto 20px;
+}
+
+@media (min-width:768px){
+    .education__subtitle{
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        margin: 0 auto 40px;
+    }
+}
+
+@media (min-width:1440px){
+    .education__subtitle{
+        width: 920px;
+        font-size: 18px;
+        line-height: 30px;
+        margin: 0 auto 60px;
+    }
+}

@@ -1,0 +1,23 @@
+.education__text-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: all .1s linear;
+}
+
+@media(min-width:768px){
+    .education__text-link{
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 600;
+    }
+}
+
+@media(min-width:1440px){
+    .education__text-link{
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
