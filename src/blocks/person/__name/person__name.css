@@ -16,3 +16,11 @@
 		white-space: normal;
 	}
 }
+
+@media screen and (min-width: 1440px) {
+	.person__name {
+	  font-size: 18px;
+		line-height: 1.67;
+		margin-top: 20px;
+	}
+}

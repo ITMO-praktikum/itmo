@@ -13,3 +13,11 @@
 		border-radius: 8px;
 	}
 }
+
+@media screen and (min-width: 1440px) {
+	.person__photo {
+	  width: 215px;
+		height: 286px;
+		border-radius: 10px;
+	}
+}
