@@ -1,0 +1,9 @@
+.person__span-position {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.person__span-position {
+    display: inline;
+  }
+}

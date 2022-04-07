@@ -5,3 +5,9 @@
 	background-color: #fff; 
 	align-items: center;
 }
+
+@media screen and (min-width: 768px) {
+  .person {
+    padding: 20px;
+  }
+}

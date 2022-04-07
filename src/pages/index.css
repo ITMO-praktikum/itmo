@@ -12,4 +12,6 @@
 @import url(../blocks/person/person.css);
 @import url(../blocks/person/__photo/person__photo.css);
 @import url(../blocks/person/__name/person__name.css);
+@import url(../blocks/person/__span-transposition/person__span-transposition.css);
 @import url(../blocks/person/__position/person__position.css);
+@import url(../blocks/person/__span-position/person__span-position.css);

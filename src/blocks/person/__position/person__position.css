@@ -6,3 +6,10 @@
 	color: #009FAC;
 	margin: 5px auto 0;
 }
+
+@media screen and (min-width: 768px) {
+	.person__position {
+	  font-size: 12px;
+		line-height: 1.45;
+	}
+}
