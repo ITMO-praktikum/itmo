@@ -7,4 +7,28 @@
     box-sizing: border-box;
     position: relative;
     width: 288px;
+    margin-top: 11px;
+    /*margin-right: 10px;*/
+    min-height: 250px;
+}
+
+@media (min-width: 768px) {
+    .news-card {
+        border-radius: 10px;
+        padding: 20px;
+        min-height: 330px;
+        width: 330px;
+        margin-top: 12px;
+        margin-right: 14px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .news-card {
+        padding:  20px 20px 30px 20px;
+        min-height: 340px;
+        width: 348px;
+        margin-top: 15px;
+        margin-right: 18px;
+    }
 }

@@ -8,3 +8,10 @@
     border-top: 1px solid rgba(0, 159, 172, 1);
     text-align: left;
 }
+
+@media (min-width: 768px) {
+    .news-card__subtitle {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
