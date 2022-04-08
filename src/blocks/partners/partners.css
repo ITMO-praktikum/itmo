@@ -1,0 +1,17 @@
+.partners{
+    margin: auto 16px 40px 16px;    
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+    .partners{
+        margin: auto 39px 60px 39px;
+    }     
+}
+
+@media screen and (min-width: 1440px) {
+    .partners{
+        margin: auto 165px 80px 165px;
+    }     
+}

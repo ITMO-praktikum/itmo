@@ -1,0 +1,27 @@
+.intro__header{
+    z-index: 1;
+    margin:0;
+    max-width: 256px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 0.1px; 
+    
+}
+
+@media screen and (min-width: 768px) {
+    .intro__header{
+        max-width: 445px;
+        font-size: 54px;
+        line-height: 68px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .intro__header{
+        max-width: 445px;
+        font-size: 54px;
+        line-height: 68px;
+    }
+}

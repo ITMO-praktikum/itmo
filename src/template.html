@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+  <link rel="stylesheet" type="text/css" href="././pages/index.css"/>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,12 +12,21 @@
   <!-- header -->
   <!-- Исполнитель: MIKE -->
   <header class="header">
-    1
+  
   </header>
 
   <!-- Когнитивные технологии, машинное обучение -->
-  <!-- Исполнитель:  -->
+  <!-- Исполнитель:  Evgenia-->
   <section class="intro">
+  <div class="intro__block">    
+      <h1 class ="intro__header">Когнитивные технологии, <br/><span class ="intro__span-accent">машинное обучение</span></h1>
+      <p class ="intro__text">Системы прикладного искусственного интеллекта</p>
+      <a class="intro__link" href="#our-projects">
+      <button class="intro__btn-projects" type="button">
+        <p class="intro__btn-text">НАШИ ПРОЕКТЫ</p>
+      </button>
+      </a> 
+  </div>
   </section>
 
   <!-- НЕСКОЛЬКО СЛОВ О НАС -->
@@ -33,7 +43,7 @@
 
   <!-- НАШИ ПРОЕКТЫ -->
   <!-- Исполнитель:  -->
-  <section class="our-projects">
+  <section id="our-projects" class="our-projects">
 
   </section>
 
@@ -56,9 +66,47 @@
   </section>
 
   <!-- с кем мы работаем -->
-  <!-- Исполнитель:  -->
+  <!-- Исполнитель: Evgenia -->
   <section class="partners">
-
+    <h2 class ="partners__header">С КЕМ МЫ РАБОТАЕМ</h2>
+    <p class = "partners__text">За время сотрудничества компания показала себя как надежный партнер, способный оперативно решать вопросы по внесению необходимых изменений.</p>
+    <p class = "partners__text">Отдельно хочется отметить квалифицированный персонал компании, который всегда готов прийти на помощь в решении поставленных задач, дать объективную оценку и свои рекомендации по улучшению деятельности.
+      Надеемся на дальнейшее и плодотворное сотрудничество.</p>
+      <ul class ="partners__grid_small">
+        <!--Разрешение 320-->
+        <li ><img class ="partners__grid-item" src="./images/rosneft-small.png" alt="Роснефть"></li>
+        <li ><img class ="partners__grid-item" src="./images/gazprom-small.png" alt="Газпром"></li>
+        <li ><img class ="partners__grid-item" src="./images/mail-small.png" alt="Мэйл ру"></li>
+        <li ><img class ="partners__grid-item" src="./images/siemens-small.png" alt="Сименс"></li>
+        <li ><img class ="partners__grid-item" src="./images/mail-small.png" alt="Мэйл ру"></li>
+        <li ><img class ="partners__grid-item" src="./images/gazprom-small.png" alt="Газпром"></li>
+        <li ><img class ="partners__grid-item" src="./images/sber-small.png" alt="Сбер"></li>
+        <li ><img class ="partners__grid-item" src="./images/huawei-small.png" alt="Хуавэй"></li>     
+      </ul>
+      <ul class ="partners__grid_mid">
+        <!--Разрешение 768-->
+        <li ><img class ="partners__grid-item" src="./images/gazprom-middle.png" alt="Газпром"></li>
+        <li ><img class ="partners__grid-item" src="./images/mail-middle.png" alt="Мэйл"></li>
+        <li ><img class ="partners__grid-item" src="./images/siemens-middle.png" alt="Сименс"></li>
+        <li ><img class ="partners__grid-item" src="./images/huawei-middle.png" alt="Хуавэй"></li>
+        <li ><img class ="partners__grid-item" src="./images/sber-middle.png" alt="Сбер"></li>
+        <li ><img class ="partners__grid-item" src="./images/rosneft-middle.png" alt="Роснефть"></li>
+        <li ><img class ="partners__grid-item" src="./images/gazprom-middle.png" alt="Газпром"></li>
+        <li ><img class ="partners__grid-item" src="./images/mail-middle.png" alt="Мэйл"></li>
+      </ul>
+      <ul class ="partners__grid_big">
+        <!--Разрешение 1440-->
+        <li ><img class ="partners__grid-item" src="./images/gazprom.png" alt="Газпром"></li>
+        <li ><img class ="partners__grid-item" src="./images/sber-big.png" alt="Сбер"></li>
+        <li ><img class ="partners__grid-item" src="./images/mail-big.png" alt="Мэйл ру"></li>
+        <li ><img class ="partners__grid-item" src="./images/siemens-big.png" alt="Сименс"></li>
+        <li ><img class ="partners__grid-item" src="./images/huawei-big.png" alt="Хуавэй"></li>
+        <li ><img class ="partners__grid-item" src="./images/sber-big.png" alt="Сбер"></li>
+        <li ><img class ="partners__grid-item" src="./images/rosneft-big.png" alt="Роснефть"></li>
+        <li ><img class ="partners__grid-item" src="./images/gazprom.png" alt="Газпром"></li>
+        <li ><img class ="partners__grid-item" src="./images/huawei-big.png" alt="Хуавэй"></li>
+        <li ><img class ="partners__grid-item" src="./images/mail-big.png" alt="Мэйл ру"></li>        
+      </ul>
   </section>
 
   <!-- ВСЕГДА НА СВЯЗИ -->
@@ -71,5 +119,13 @@
   <footer class="footer">
 
   </footer>
+
+  <template class ="template">
+    <li class="partners__items">
+      <img class ="partners__grid-item" 
+      src="#" 
+      alt="">
+    </li>
+  </template>  
 </body>
 </html>
