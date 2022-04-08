@@ -1,0 +1,16 @@
+.intro__btn-text{
+    color:#FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+@media screen and (min-width:768px){
+    .intro__btn-text{
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+ }   
+}
