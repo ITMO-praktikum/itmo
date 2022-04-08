@@ -1,11 +1,10 @@
 .news-card {
-    font-family: 'Open Sans';
-    max-width: 288px;
-    min-height: 250px;
+    display: flex;
+    flex-direction: column;
     padding: 16px;
     background: rgba(224, 240, 255, 1);
     border-radius: 5px;
     box-sizing: border-box;
-    margin: 0 auto;
     position: relative;
+    width: 288px;
 }

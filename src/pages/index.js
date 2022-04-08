@@ -1,23 +1,17 @@
 import "./index.css";
 
-const swiper = new Swiper(".swiper", {
-  // Optional parameters
-  loop: true,
+const swiper = new Swiper('.swiper', {
+  // loop: true,
+  slidesPerView: 'auto',
   centeredSlides: true,
-  slidesPerView: 1.1,
+  initialSlide: 0,
   spaceBetween: 10,
-  breakpoints: {
-    480: {
-      slidesPerView: 3,
-      spaceBetween: 30,
-    },
-    1024: {
-      slidesPerView: 3,
-      spaceBetween: 32,
-    },
-  },
   pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
+    el: '.swiper-pagination',
+  },
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
 });
