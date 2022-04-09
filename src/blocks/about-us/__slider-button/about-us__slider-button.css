@@ -1,0 +1,16 @@
+.about-us__slider-button {
+  margin: 0;
+  top: 163px;
+  display: none;
+  height: 60px;
+  width: 60px;
+  border-radius: 36px;
+  background: center/60% no-repeat url(../../../images/arrow-left.svg);
+  box-shadow: 0 4px 30px rgba(224, 240, 255, 0.1);
+}
+
+@media (min-width: 1440px) {
+  .about-us__slider-button {
+    display: block;
+  }
+}

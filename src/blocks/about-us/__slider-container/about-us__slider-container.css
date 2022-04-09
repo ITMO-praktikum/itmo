@@ -1,18 +1,16 @@
-.about-us__slider {
+.about-us__slider-container {
   position: relative;
 }
 
 @media (min-width: 768px) {
-  .about-us__slider {
+  .about-us__slider-container {
     margin-left: 40px;
   }
-
 }
 
 @media (min-width: 1440px) {
-  .about-us__slider {
+  .about-us__slider-container {
     max-width: 1122px;
     margin: 0 auto;
   }
-
 }
