@@ -1,0 +1,26 @@
+.person__name {
+  font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.33;
+	text-align: center;
+	letter-spacing: 0.0588372px;
+	max-width: 73px;
+	margin: 10px auto 0;
+}
+
+@media screen and (min-width: 768px) {
+	.person__name {
+	  font-size: 14px;
+		max-width: 190px;
+		white-space: normal;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.person__name {
+	  font-size: 18px;
+		line-height: 1.67;
+		margin-top: 20px;
+	}
+}

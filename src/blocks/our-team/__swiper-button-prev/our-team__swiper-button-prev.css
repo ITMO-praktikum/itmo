@@ -1,0 +1,22 @@
+.our-team__swiper-button-prev {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+	.our-team__swiper-button-prev {
+    display: block;
+		background-image: url('../../../images/our-team-button-prev.svg');
+		height: 60px;
+		width: 60px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		position: absolute;
+		top: 375px;
+		left: 100px;
+  }
+
+	.our-team__swiper-button-prev::after {
+		display: none;
+	}
+}

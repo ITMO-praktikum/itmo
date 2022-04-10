@@ -50,9 +50,15 @@
   </section>
 
   <!-- НАША КОМАНДА -->
-  <!-- Исполнитель:  -->
+  <!-- Исполнитель: Ирина Крылова -->
   <section class="our-team">
-
+    <h2 class="section-title">НАША КОМАНДА</h2>
+    <div class="our-team__swiper">
+      <ul class="our-team__persons swiper-wrapper"></ul>
+      <div class="our-team__swiper-pagination"></div> 
+    </div>  
+    <div class="our-team__swiper-button-prev"></div>
+    <div class="our-team__swiper-button-next"></div>
   </section>
 
   <!-- с кем мы работаем -->
@@ -72,4 +78,11 @@
 
   </footer>
 </body>
+<template id="team-person">
+  <li class="person our-team__swiper-slide">
+    <img class="person__photo">
+    <h3 class="person__name"></h3>
+    <p class="person__position"></p>
+  </li>
+</template>
 </html>

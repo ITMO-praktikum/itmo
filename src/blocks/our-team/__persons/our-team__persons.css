@@ -1,0 +1,14 @@
+.our-team__persons {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 15px 0;
+  column-gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .our-team__persons {
+    column-gap: 30px;
+    margin: 20px 0 0;
+  }
+}

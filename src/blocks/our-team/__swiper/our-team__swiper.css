@@ -1,0 +1,20 @@
+.our-team__swiper {
+  margin: 0 15px 0 0;
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .our-team__swiper {
+    width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .our-team__swiper {
+    width: 1110px;
+    margin: 0 auto;
+  }
+}

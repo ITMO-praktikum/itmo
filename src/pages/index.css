@@ -4,3 +4,22 @@
 @import url(../vendor/OpenSans/opensans.css); 
 /* root */ 
 @import url(../blocks/root/root.css); 
+
+/*НАША КОМАНДА*/
+@import url(../blocks/our-team/our-team.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/our-team/__persons/our-team__persons.css);
+@import url(../blocks/person/person.css);
+@import url(../blocks/person/__photo/person__photo.css);
+@import url(../blocks/person/__name/person__name.css);
+@import url(../blocks/person/__span-transposition/person__span-transposition.css);
+@import url(../blocks/person/__position/person__position.css);
+@import url(../blocks/person/__span-position/person__span-position.css);
+
+/* swiper */
+@import url(../../node_modules/swiper/swiper-bundle.css);
+@import url(../blocks/our-team/__swiper/our-team__swiper.css);
+@import url(../blocks/our-team/__swiper-button-next/our-team__swiper-button-next.css);
+@import url(../blocks/our-team/__swiper-button-prev/our-team__swiper-button-prev.css);
+@import url(../blocks/our-team/__swiper-slide/our-team__swiper-slide.css);
+@import url(../blocks/our-team/__swiper-pagination/our-team__swiper-pagination.css);

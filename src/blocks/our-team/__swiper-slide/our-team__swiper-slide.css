@@ -1,0 +1,9 @@
+.our-team__swiper-slide {
+  width: 140px!important;
+}
+
+@media screen and (min-width: 768px) {
+  .our-team__swiper-slide {
+    width: 210px!important;
+  }
+}

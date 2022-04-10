@@ -1,0 +1,23 @@
+.person__photo {
+  display: block;
+	width: 120px;
+	height: 160px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+	.person__photo {
+	  width: 170px;
+		height: 226px;
+		border-radius: 8px;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.person__photo {
+	  width: 215px;
+		height: 286px;
+		border-radius: 10px;
+	}
+}

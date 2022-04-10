@@ -1,0 +1,9 @@
+.root {
+    font-family: 'Open Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+  }
