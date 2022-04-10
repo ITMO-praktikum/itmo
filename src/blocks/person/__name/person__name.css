@@ -12,7 +12,7 @@
 @media screen and (min-width: 768px) {
 	.person__name {
 	  font-size: 14px;
-		max-width: 210px;
+		max-width: 190px;
 		white-space: normal;
 	}
 }

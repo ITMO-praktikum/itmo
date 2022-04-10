@@ -15,3 +15,10 @@
 @import url(../blocks/person/__span-transposition/person__span-transposition.css);
 @import url(../blocks/person/__position/person__position.css);
 @import url(../blocks/person/__span-position/person__span-position.css);
+
+/* swiper */
+@import url(../../node_modules/swiper/swiper-bundle.css);
+@import url(../blocks/swiper/swiper.css);
+@import url(../blocks/swiper-button-next/swiper-button-next.css);
+@import url(../blocks/swiper-button-prev/swiper-button-prev.css);
+@import url(../blocks/swiper-slide/swiper-slide.css);

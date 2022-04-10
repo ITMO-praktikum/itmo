@@ -1,0 +1,9 @@
+.swiper-slide {
+  width: 140px!important;
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-slide {
+    width: 210px!important;
+  }
+}
