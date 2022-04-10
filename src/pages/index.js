@@ -31,8 +31,9 @@ import Swiper, { Navigation, Pagination } from 'swiper';
 
 Swiper.use([Navigation, Pagination]);
 
-const swiperOurTeam = new Swiper('.swiper', {
+const swiperOurTeam = new Swiper('.our-team__swiper', {
 	cssMode: true,
+  slideClass: 'our-team__swiper-slide',
 
   breakpoints: {
     320: {
@@ -47,12 +48,12 @@ const swiperOurTeam = new Swiper('.swiper', {
   },
   
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: '.our-team__swiper-button-next',
+    prevEl: '.our-team__swiper-button-prev',
   },
   
   pagination: {
-    el: ".swiper-pagination",
+    el: '.our-team__swiper-pagination',
     clickable: true,
   },
   
