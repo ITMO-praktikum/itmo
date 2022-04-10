@@ -6,6 +6,8 @@ export default class Person {
 		this._academicTitle = data.academicTitle;
 		this._academicDegree = data.academicDegree;
 		this._photo = data.photo;
+		this._gender = data.gender;
+		this._defaultPhoto = data.defaultPhoto;
 		this._personSelector = personSelector;
   }
 
@@ -20,7 +22,9 @@ export default class Person {
 	// метод, который генерирует участника команды
   generateElementPerson() {
     this._element = this._getTemplatePerson();
-		this._element.querySelector('.person__photo').src = this._photo; 
+		this._photo ?
+			this._element.querySelector('.person__photo').src = this._photo :
+			this._element.querySelector('.person__photo').src = this._defaultPhoto; 
 		this._element.querySelector('.person__photo').alt = `${this._lastName} ${this._firstName}`;
 		this._element.querySelector('.person__name').innerHTML = `${this._lastName} <span class="person__span-transposition">${this._firstName}</span>`;
 		this._academicTitle ?

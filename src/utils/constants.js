@@ -6,6 +6,8 @@ import matveev from '../images/person-matveev.png';
 import shalyto from '../images/person-shalyto.png';
 import kolyubin from '../images/person-kolyubin.png';
 import pyrkin from '../images/person-pyrkin.png';
+import personMan from '../images/person-man.png';
+import personWoman from '../images/person-woman.png';
 
 export const team = [
   {
@@ -14,7 +16,9 @@ export const team = [
 		position: 'Директор',
 		academicTitle: 'профессор',
 		academicDegree: 'ДТН',
-		photo: bobtsov
+		photo: bobtsov,
+		gender: 'man',
+		defaultPhoto: personMan
   },
 	{
 		lastName: 'Буханоский',
@@ -22,7 +26,9 @@ export const team = [
 		position: 'Директор',
 		academicTitle: 'руководитель',
 		academicDegree: 'ДТН',
-		photo: bukhanovsky
+		photo: bukhanovsky,
+		gender: 'man',
+		defaultPhoto: personMan
   },
 	{
 		lastName: 'Муромцев',
@@ -30,7 +36,9 @@ export const team = [
 		position: 'Руководитель',
 		academicTitle: 'доцент',
 		academicDegree: 'КТН',
-		photo: muromtsev
+		photo: muromtsev,
+		gender: 'man',
+		defaultPhoto: personMan
   },
 	{
 		lastName: 'Матвеев',
@@ -38,7 +46,9 @@ export const team = [
 		position: 'Руководитель',
 		academicTitle: 'профессор',
 		academicDegree: 'ДТН',
-		photo: matveev
+		photo: matveev,
+		gender: 'man',
+		defaultPhoto: personMan
   },
 	{
 		lastName: 'Шалыто',
@@ -46,7 +56,9 @@ export const team = [
 		position: 'Профессор',
 		academicTitle: '',
 		academicDegree: 'ДТН',
-		photo: shalyto
+		photo: shalyto,
+		gender: 'man',
+		defaultPhoto: personMan
   },
 	{
 		lastName: 'Колюбин',
@@ -54,7 +66,9 @@ export const team = [
 		position: 'Начальник',
 		academicTitle: 'профессор',
 		academicDegree: 'ДТН',
-		photo: kolyubin
+		photo: kolyubin,
+		gender: 'man',
+		defaultPhoto: personMan
   },
 	{
 		lastName: 'Пыркин',
@@ -62,6 +76,28 @@ export const team = [
 		position: 'Декан',
 		academicTitle: 'профессор',
 		academicDegree: 'ДТН',
-		photo: pyrkin
+		photo: pyrkin,
+		gender: 'man',
+		defaultPhoto: personMan
+  },
+	{
+		lastName: 'Пыркин',
+		firstName: 'Антон Александрович',
+		position: 'Декан',
+		academicTitle: 'профессор',
+		academicDegree: 'ДТН',
+		photo: '',
+		gender: 'man',
+		defaultPhoto: personMan
+  },
+	{
+		lastName: 'Пыркинa',
+		firstName: 'Мария Александровна',
+		position: 'Декан',
+		academicTitle: 'профессор',
+		academicDegree: 'ДТН',
+		photo: '',
+		gender: 'woman',
+		defaultPhoto: personWoman
   }
 ]
