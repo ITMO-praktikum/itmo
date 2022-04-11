@@ -34,85 +34,15 @@
       <div class="about-us__slider-container">
         <!-- navigation buttons -->
         <div
-          class="swiper-button-prev about-us__slider-button about-us__slider-button_type_prev"
+          class="about-us__slider-button about-us__slider-button_type_prev"
         ></div>
         <div
-          class="swiper-button-next about-us__slider-button about-us__slider-button_type_next"
+          class="about-us__slider-button about-us__slider-button_type_next"
         ></div>
         <!-- Slider container -->
         <div class="swiper about-us__slider">
           <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide about-us__slide">
-              <article class="news-card">
-                <div class="news-card__pin"></div>
-                <span class="news-card__date">Понедельник, 5 июля 2021г</span>
-                <h3 class="news-card__title">
-                  ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НА
-                  sdjsh sdjhkshkdshkj
-                </h3>
-                <p class="news-card__subtitle">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab
-                  accusantium alias aliquam, aliquid at blanditiis consectetur
-                  <!--                  deleniti dicta earum enim est ex expedita facilis incidunt-->
-                  <!--                  iste iusto, laudantium minus nostrum perspiciatis placeat qui-->
-                  <!--                  quibusdam quis repellat repudiandae tempora ut vel voluptas-->
-                  <!--                  voluptatem voluptatibus. Asperiores beatae cumque eos nemo-->
-                  <!--                  quis.-->
-                </p>
-              </article>
-            </div>
-            <div class="swiper-slide about-us__slide">
-              <article class="news-card">
-                <div class="news-card__pin"></div>
-                <span class="news-card__date">Понедельник, 5 июля 2021г</span>
-                <h3 class="news-card__title">
-                  АВТОРЫ РОБОТА-МУЗЫКАНТА РОБЕРТА РОБОТЕЦКОГО ПРИЗНАНЫ ЛУЧШИМИ
-                  НОВИИИИИИИ
-                </h3>
-                <p class="news-card__subtitle">
-                  Команда ИТМО стала лучшей на международном финале
-                  RoboCup-2021. Успех принес Роберт Роботецкий — робот-виртуоз,
-                  исполнивший знаменитый французский романс «Под небом Парижа».
-                  В подготовке команды участвовали сотрудники лаборатории.
-                </p>
-              </article>
-            </div>
-            <div class="swiper-slide about-us__slide">
-              <article class="news-card">
-                <div class="news-card__pin"></div>
-                <span class="news-card__date">Понедельник, 5 июля 2021г</span>
-                <h3 class="news-card__title">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Ipsam, ipsum.
-                </h3>
-                <p class="news-card__subtitle">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Accusamus aliquid dolorem est eum, exercitationem iusto,
-                  minima non praesentium quia quidem quo ratione, reprehenderit.
-                  Cupiditate eos explicabo maiores molestias. Natus, quaerat.
-                </p>
-              </article>
-            </div>
-            <div class="swiper-slide about-us__slide">
-              <article class="news-card">
-                <div class="news-card__pin"></div>
-                <span class="news-card__date">Понедельник, 5 июля 2021г</span>
-                <h3 class="news-card__title">
-                  ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE
-                  — 2021
-                </h3>
-                <p class="news-card__subtitle">
-                  Команда ИТМО сделала многое, чтобы вернуть формат выпускного
-                  этого и прошлого года. Из-за эпидемиологической ситуации
-                  <!--                  отменена развлекательная часть, но сохранилась торжественная.-->
-                  <!--                  Выпускники смогли получить дипломы из рук деканов и услышать-->
-                  <!--                  поздравления ректора.-->
-                </p>
-              </article>
-            </div>
-          </div>
+          <div class="swiper-wrapper"></div>
 
           <div class="swiper-pagination"></div>
         </div>
@@ -152,6 +82,26 @@
     <!-- FOOTER -->
     <!-- Исполнитель: MIKE -->
     <footer class="footer"></footer>
+    <template class="about-us__template-slide">
+      <div class="swiper-slide about-us__slide">
+        <article class="news-card">
+          <div class="news-card__pin"></div>
+          <span class="news-card__date">Понедельник, 5 июля 2021г</span>
+          <h3 class="news-card__title">
+            ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НА sdjsh
+            sdjhkshkdshkj
+          </h3>
+          <p class="news-card__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab
+            accusantium alias aliquam, aliquid at blanditiis consectetur
+            deleniti dicta earum enim est ex expedita facilis incidunt iste
+            iusto, laudantium minus nostrum perspiciatis placeat qui quibusdam
+            quis repellat repudiandae tempora ut vel voluptas voluptatem
+            voluptatibus. Asperiores beatae cumque eos nemo quis.
+          </p>
+        </article>
+      </div>
+    </template>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   </body>
 </html>

@@ -1,4 +1,5 @@
 .about-us__slider-button {
+  position: absolute;
   margin: 0;
   top: 163px;
   display: none;
