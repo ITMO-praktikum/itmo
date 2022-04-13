@@ -3,4 +3,20 @@
 /* fonts */ 
 @import url(../vendor/OpenSans/opensans.css); 
 /* root */ 
-@import url(../blocks/root/root.css); 
+@import url(../blocks/root/root.css);
+
+
+/* publications */
+
+/* card-article */
+@import url(../blocks/card-article/card-article.css);
+@import url(../blocks/card-article/__image/card-article__image.css);
+@import url(../blocks/card-article/__title-wrapper/card-article__title-wrapper.css);
+@import url(../blocks/card-article/__title/card-article__title.css);
+@import url(../blocks/card-article/__author/card-article__author.css);
+@import url(../blocks/card-article/__article/card-article__article.css);
+@import url(../blocks/card-article/__read-and-share/card-article__read-and-share.css);
+@import url(../blocks/card-article/__read/card-article__read.css);
+@import url(../blocks/card-article/__read-arrow/card-article__read-arrow.css);
+@import url(../blocks/card-article/__read-text/card-article__read-text.css);
+@import url(../blocks/card-article/__share/card-article__share.css);

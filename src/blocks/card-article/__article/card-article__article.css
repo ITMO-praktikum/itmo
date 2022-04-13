@@ -1,0 +1,12 @@
+.card-article__article {
+    margin: 0 16px 16px;
+    color: rgba(0, 13, 38, 1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

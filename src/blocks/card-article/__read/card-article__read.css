@@ -1,0 +1,7 @@
+.card-article__read {
+  display: flex;
+  align-items: center;
+  min-width: 165px;
+  justify-content: space-between;
+  text-decoration: none;
+}

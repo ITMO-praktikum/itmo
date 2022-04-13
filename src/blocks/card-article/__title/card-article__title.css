@@ -1,0 +1,13 @@
+.card-article__title {
+    color: rgba(0, 13, 38, 1);
+    padding: 0;
+    margin: 0 0 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

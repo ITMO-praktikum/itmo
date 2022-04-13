@@ -1,0 +1,8 @@
+.card-article__read-and-share {
+  background-color: rgba(0, 159, 172, 1);
+  min-height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
