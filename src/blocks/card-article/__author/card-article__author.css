@@ -10,3 +10,10 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
+@media (min-width: 768px) {
+    .card-article__author {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}

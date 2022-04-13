@@ -6,3 +6,16 @@
   align-items: center;
   padding: 0 16px;
 }
+
+@media (min-width: 768px) {
+  .card-article__read-and-share {
+    min-height: 60px;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card-article__read-and-share {
+    min-height: 70px;
+  }
+}

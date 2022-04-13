@@ -7,3 +7,10 @@
   align-items: center;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  .card-article__read-text {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

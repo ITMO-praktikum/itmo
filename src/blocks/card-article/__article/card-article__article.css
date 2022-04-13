@@ -1,12 +1,27 @@
 .card-article__article {
-    margin: 0 16px 16px;
-    color: rgba(0, 13, 38, 1);
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
+  margin: 0 16px 16px;
+  color: rgba(0, 13, 38, 1);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
 
-    display: -webkit-box;
-    -webkit-line-clamp: 8;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .card-article__article {
+    font-size: 14px;
+    line-height: 19px;
+    -webkit-line-clamp: 7;
+    margin: 0 20px 10px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card-article__article {
+    margin: 0 20px 26px;
+  }
 }
