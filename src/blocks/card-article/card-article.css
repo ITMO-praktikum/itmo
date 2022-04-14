@@ -16,11 +16,6 @@
   height: 160px;
 }
 
-.card-article:hover .card-article__content {
-  padding: 0 20px 10px;}
-
-
-
 @media (min-width: 768px) {
   .card-article {
     width: 330px;
@@ -31,6 +26,10 @@
   .card-article:hover .card-article__image {
     height: 158px;
   }
+
+  .card-article:hover .card-article__content {
+    padding: 0 20px 10px;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -38,5 +37,9 @@
     width: 348px;
     min-height: 548px;
     border-radius: 10px;
+  }
+
+  .card-article:hover .card-article__content {
+    padding: 0 20px 30px;
   }
 }
