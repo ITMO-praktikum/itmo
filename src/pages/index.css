@@ -11,7 +11,7 @@
 /* card-article */
 @import url(../blocks/card-article/card-article.css);
 @import url(../blocks/card-article/__image/card-article__image.css);
-@import url(../blocks/card-article/__title-wrapper/card-article__title-wrapper.css);
+@import url(../blocks/card-article/__content/card-article__content.css);
 @import url(../blocks/card-article/__title/card-article__title.css);
 @import url(../blocks/card-article/__author/card-article__author.css);
 @import url(../blocks/card-article/__article/card-article__article.css);
