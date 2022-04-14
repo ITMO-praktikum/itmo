@@ -1,21 +1,29 @@
 .card-article__read-and-share {
+  position: absolute;
+  bottom: -44px;
+  width: 256px;
   background-color: rgba(0, 159, 172, 1);
   min-height: 44px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 16px;
+  transition: transform 0.4s ease-in-out;
 }
 
 @media (min-width: 768px) {
   .card-article__read-and-share {
     min-height: 60px;
+    bottom: -60px;
     padding: 0 20px;
+    width: 291px;
   }
 }
 
 @media (min-width: 1440px) {
   .card-article__read-and-share {
     min-height: 70px;
+    bottom: -70px;
+    width: 310px;
   }
 }
