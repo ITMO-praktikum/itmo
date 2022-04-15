@@ -7,6 +7,9 @@
 
 
 /* publications */
+@import url(../blocks/publications/publications.css);
+@import url(../blocks/publications/__title/publications__title.css);
+@import url(../blocks/publications/__slider/publications__slider.css);
 
 /* card-article */
 @import url(../blocks/card-article/card-article.css);
