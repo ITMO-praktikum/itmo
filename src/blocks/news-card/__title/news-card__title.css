@@ -1,0 +1,24 @@
+.news-card__title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #001337;
+    text-transform: uppercase;
+    margin: 8px 0 12px 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+@media (min-width: 768px) {
+    .news-card__title {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 8px 0 20px 0;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+}

@@ -1,75 +1,107 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= htmlWebpackPlugin.options.title %></title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
 
-<body class="root">
-  <!-- header -->
-  <!-- Исполнитель: MIKE -->
-  <header class="header">
-    1
-  </header>
+  <body class="root">
+    <!-- header -->
+    <!-- Исполнитель: MIKE -->
+    <header class="header"></header>
 
-  <!-- Когнитивные технологии, машинное обучение -->
-  <!-- Исполнитель:  -->
-  <section class="intro">
-  </section>
+    <!-- Когнитивные технологии, машинное обучение -->
+    <!-- Исполнитель:  -->
+    <section class="intro"></section>
 
-  <!-- НЕСКОЛЬКО СЛОВ О НАС -->
-  <!-- Исполнитель: Илья -->
-  <section class="about-us">
+    <!-- НЕСКОЛЬКО СЛОВ О НАС -->
+    <!-- Исполнитель: Илья -->
+    <section class="about-us">
+      <h2 class="about-us__title">Несколько слов о нас</h2>
+      <p class="about-us__subtitle">
+        Национальный центр когнитивных разработок – центр национальной
+        технологической инициативы (НТИ), получивший государственную поддержку
+        по направлению «Технологии машинного обучения и когнитивные технологии».
+      </p>
+      <!-- Slider main container -->
+      <div class="about-us__slider-container">
+        <!-- navigation buttons -->
+        <div
+          class="about-us__slider-button about-us__slider-button_type_prev"
+        ></div>
+        <div
+          class="about-us__slider-button about-us__slider-button_type_next"
+        ></div>
+        <!-- Slider container -->
+        <div class="swiper about-us__slider">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper"></div>
 
-  </section>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
 
-  <!-- INDUSTRIAL AI RESEARCH LAB -->
-  <!-- Исполнитель:  -->
-  <section class="research">
+      <!-- If we need navigation buttons -->
+    </section>
 
-  </section>
+    <!-- INDUSTRIAL AI RESEARCH LAB -->
+    <!-- Исполнитель:  -->
+    <section class="research"></section>
 
-  <!-- НАШИ ПРОЕКТЫ -->
-  <!-- Исполнитель:  -->
-  <section class="our-projects">
+    <!-- НАШИ ПРОЕКТЫ -->
+    <!-- Исполнитель:  -->
+    <section class="our-projects"></section>
 
-  </section>
+    <!-- ОБРАЗОВАНИЕ -->
+    <!-- Исполнитель:  -->
+    <section class="education"></section>
 
-  <!-- ОБРАЗОВАНИЕ -->
-  <!-- Исполнитель:  -->
-  <section class="education">
+    <!-- ПУБЛИКАЦИИ -->
+    <!-- Исполнитель:  -->
+    <section class="publications"></section>
 
-  </section>
+    <!-- НАША КОМАНДА -->
+    <!-- Исполнитель:  -->
+    <section class="our-team"></section>
 
-  <!-- ПУБЛИКАЦИИ -->
-  <!-- Исполнитель:  -->
-  <section class="publications">
+    <!-- с кем мы работаем -->
+    <!-- Исполнитель:  -->
+    <section class="partners"></section>
 
-  </section>
+    <!-- ВСЕГДА НА СВЯЗИ -->
+    <!-- Исполнитель:  -->
+    <section class="communications"></section>
 
-  <!-- НАША КОМАНДА -->
-  <!-- Исполнитель:  -->
-  <section class="our-team">
-
-  </section>
-
-  <!-- с кем мы работаем -->
-  <!-- Исполнитель:  -->
-  <section class="partners">
-
-  </section>
-
-  <!-- ВСЕГДА НА СВЯЗИ -->
-  <!-- Исполнитель:  -->
-  <section class="communications">
-  </section>
-
-  <!-- FOOTER -->
-  <!-- Исполнитель: MIKE -->
-  <footer class="footer">
-
-  </footer>
-</body>
+    <!-- FOOTER -->
+    <!-- Исполнитель: MIKE -->
+    <footer class="footer"></footer>
+    <template class="about-us__template-slide">
+      <div class="swiper-slide about-us__slide">
+        <article class="news-card">
+          <div class="news-card__pin"></div>
+          <span class="news-card__date">Понедельник, 5 июля 2021г</span>
+          <h3 class="news-card__title">
+            ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НА sdjsh
+            sdjhkshkdshkj
+          </h3>
+          <p class="news-card__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab
+            accusantium alias aliquam, aliquid at blanditiis consectetur
+            deleniti dicta earum enim est ex expedita facilis incidunt iste
+            iusto, laudantium minus nostrum perspiciatis placeat qui quibusdam
+            quis repellat repudiandae tempora ut vel voluptas voluptatem
+            voluptatibus. Asperiores beatae cumque eos nemo quis.
+          </p>
+        </article>
+      </div>
+    </template>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  </body>
 </html>

@@ -1,6 +1,26 @@
-/* normalize */ 
-@import url(../vendor/normalize.css); 
-/* fonts */ 
-@import url(../vendor/OpenSans/opensans.css); 
-/* root */ 
-@import url(../blocks/root/root.css); 
+/* normalize */
+@import url(../vendor/normalize.css);
+/* fonts */
+@import url(../vendor/OpenSans/opensans.css);
+/* swiper */
+@import url(../vendor/swiper/swiper.css);
+/* root */
+@import url(../blocks/root/root.css);
+
+/* about-us */
+@import url(../blocks/about-us/about-us.css);
+@import url(../blocks/about-us/__title/about-us__title.css);
+@import url(../blocks/about-us/__subtitle/about-us__subtitle.css);
+/* about-us slider */
+@import url(../blocks/about-us/__slider/about-us__slider.css);
+@import url(../blocks/about-us/__slider-container/about-us__slider-container.css);
+@import url(../blocks/about-us/__slider-button/about-us__slider-button.css);
+@import url(../blocks/about-us/__slider-button/_type/about-us__slider-button_type_next.css);
+@import url(../blocks/about-us/__slider-button/_type/about-us__slider-button_type_prev.css);
+@import url(../blocks/about-us/__slide/about-us__slide.css);
+/* about-us news-card */
+@import url(../blocks/news-card/news-card.css);
+@import url(../blocks/news-card/__pin/news-card__pin.css);
+@import url(../blocks/news-card/__date/news-card__date.css);
+@import url(../blocks/news-card/__title/news-card__title.css);
+@import url(../blocks/news-card/__subtitle/news-card__subtitle.css);

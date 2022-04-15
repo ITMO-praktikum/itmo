@@ -1,0 +1,26 @@
+.about-us__slider-container .swiper-pagination {
+  position: static;
+}
+
+.about-us__slider-container .swiper-pagination-horizontal {
+  margin: 14px 0 54px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-us__slider-container .swiper-pagination-bullet {
+  background-color: white;
+  width: 4px;
+  height: 4px;
+}
+
+@media (min-width: 768px) {
+  .about-us__slider-container .swiper-pagination-horizontal {
+    margin: 21px 0 81px;
+  }
+  .about-us__slider-container .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    margin: 0 6px;
+  }
+}

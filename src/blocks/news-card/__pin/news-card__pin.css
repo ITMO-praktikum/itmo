@@ -1,0 +1,26 @@
+.news-card__pin {
+  background: url("../../../images/pin.svg") no-repeat;
+  width: 24px;
+  height: 31px;
+  position: absolute;
+  top: -11px;
+  right: -6px;
+}
+
+@media (min-width: 768px) {
+  .news-card__pin {
+    width: 30px;
+    height: 38px;
+    top: -12px;
+    right: -13px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .news-card__pin {
+    width: 30px;
+    height: 40px;
+    top: -14px;
+    right: -11px;
+  }
+}
