@@ -24,10 +24,11 @@
 @import url(../blocks/card-article/__read-text/card-article__read-text.css);
 @import url(../blocks/card-article/__share/card-article__share.css);
 
-/* popup-tooltip */
-@import url(../blocks/popup-tooltip/popup-tooltip.css);
-@import url(../blocks/popup-tooltip/__items/popup-tooltip__items.css);
-@import url(../blocks/popup-tooltip/__item/popup-tooltip__item.css);
-@import url(../blocks/popup-tooltip/__link/popup-tooltip__link.css);
-@import url(../blocks/popup-tooltip/__icon/popup-tooltip__icon.css);
+/* tooltip */
+@import url(../blocks/tooltip/tooltip.css);
+@import url(../blocks/tooltip/_active/tooltip_active.css);
+@import url(../blocks/tooltip/__items/tooltip__items.css);
+@import url(../blocks/tooltip/__item/tooltip__item.css);
+@import url(../blocks/tooltip/__link/tooltip__link.css);
+@import url(../blocks/tooltip/__icon/tooltip__icon.css);
 

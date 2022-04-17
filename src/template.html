@@ -52,43 +52,8 @@
     <section class="communications"></section>
 
     <!-- FOOTER -->
-    <!-- Исполнитель: MIKE -->
+    <!-- Исполнитель: MIKE -->`
     <footer class="footer"></footer>
-
-    <div class="popup-tooltip">
-      <ul class="popup-tooltip__items">
-        <li class="popup-tooltip__item">
-          <a class="popup-tooltip__link" href="#">
-            <img class="popup-tooltip__icon" alt="ссылка на соцсеть вконтакте"
-            src=<%=require("./images/Icon/VK.svg")%> />
-          </a>
-        </li>
-        <li class="popup-tooltip__item">
-          <a class="popup-tooltip__link" href="#">
-            <img class="popup-tooltip__icon" alt=""
-            src=<%=require("./images/Icon/Facebook.svg")%> />
-          </a>
-        </li>
-        <li class="popup-tooltip__item">
-          <a class="popup-tooltip__link" href="#">
-            <img class="popup-tooltip__icon" alt=""
-            src=<%=require("./images/Icon/Telegram.svg")%> />
-          </a>
-        </li>
-        <li class="popup-tooltip__item">
-          <a class="popup-tooltip__link" href="#">
-            <img class="popup-tooltip__icon" alt=""
-            src=<%=require("./images/Icon/Insta.svg")%> />
-          </a>
-        </li>
-        <li class="popup-tooltip__item">
-          <a class="popup-tooltip__link" href="#">
-            <img class="popup-tooltip__icon" alt=""
-            src=<%=require("./images/Icon/YouTube.svg")%> />
-          </a>
-        </li>
-      </ul>
-    </div>
 
     <template class="publicationsCardTemplate">
       <article class="card-article">
@@ -98,12 +63,46 @@
           <p class="card-article__author"></p>
           <p class="card-article__article"></p>
         </div>
+        <div class="tooltip">
+          <ul class="tooltip__items">
+            <li class="tooltip__item">
+              <a class="tooltip__link" href="#">
+                <img class="tooltip__icon" alt="ссылка на соцсеть вконтакте"
+                src=<%=require("./images/Icon/VK.svg")%> />
+              </a>
+            </li>
+            <li class="tooltip__item">
+              <a class="tooltip__link" href="#">
+                <img class="tooltip__icon" alt=""
+                src=<%=require("./images/Icon/Facebook.svg")%> />
+              </a>
+            </li>
+            <li class="tooltip__item">
+              <a class="tooltip__link" href="#">
+                <img class="tooltip__icon" alt=""
+                src=<%=require("./images/Icon/Telegram.svg")%> />
+              </a>
+            </li>
+            <li class="tooltip__item">
+              <a class="tooltip__link" href="#">
+                <img class="tooltip__icon" alt=""
+                src=<%=require("./images/Icon/Insta.svg")%> />
+              </a>
+            </li>
+            <li class="tooltip__item">
+              <a class="tooltip__link" href="#">
+                <img class="tooltip__icon" alt=""
+                src=<%=require("./images/Icon/YouTube.svg")%> />
+              </a>
+            </li>
+          </ul>
+        </div>
         <div class="card-article__read-and-share">
           <a class="card-article__read" href="#">
             <p class="card-article__read-text">Читать полностью</p>
             <div class="card-article__read-arrow"></div>
           </a>
-          <a class="card-article__share" href="#"></a>
+          <div class="card-article__share"></div>
         </div>
       </article>
     </template>

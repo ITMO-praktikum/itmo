@@ -2,7 +2,6 @@
   position: relative;
   box-sizing: border-box;
   width: 288px;
-  overflow: hidden;
   min-height: 462px;
   display: flex;
   flex-direction: column;
@@ -14,6 +13,10 @@
 .card-article:hover .card-article__image {
   height: 160px;
 }
+.card-article:hover .card-article__content {
+  transform: translateY(-44px);
+}
+
 
 @media (min-width: 768px) {
   .card-article {
@@ -27,6 +30,10 @@
   }
 
   .card-article:hover .card-article__content {
+    transform: translateY(-60px);
+  }
+
+  .card-article:hover .card-article__content {
     padding: 0 20px 10px;
   }
 }
@@ -36,6 +43,10 @@
     width: 348px;
     min-height: 548px;
     border-radius: 10px;
+  }
+
+  .card-article:hover .card-article__content {
+    transform: translateY(-70px);
   }
 
   .card-article:hover .card-article__content {

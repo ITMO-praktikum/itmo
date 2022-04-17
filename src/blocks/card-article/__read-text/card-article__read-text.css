@@ -8,6 +8,12 @@
   text-align: center;
 }
 
+.card-article__read-text:hover {
+  font-weight: 700;
+  text-decoration-line: underline;
+  transition: all 0.1s;
+}
+
 @media (min-width: 768px) {
   .card-article__read-text {
     font-size: 18px;

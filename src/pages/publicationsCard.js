@@ -263,17 +263,29 @@ const publicationsCardList = [
   },
 ];
 
+const toggleTooltipActive = (tooltip) => {
+  tooltip.classList.toggle("tooltip_active");
+};
+
 const publicationsCardTemplate = document.querySelector(
   ".publicationsCardTemplate"
 ).content;
 
 const publicationsCard = (data) => {
-  const Card = publicationsCardTemplate.cloneNode(true);
-  Card.querySelector(".card-article__image").src = data.images;
-  Card.querySelector(".card-article__title").textContent = data.title;
-  Card.querySelector(".card-article__author").textContent = data.author;
-  Card.querySelector(".card-article__article").textContent = data.article;
-  return Card;
+  const card = publicationsCardTemplate.cloneNode(true);
+  const share = card.querySelector(".card-article__share");
+  const tooltip = card.querySelector(".tooltip");
+
+  card.querySelector(".card-article__image").src = data.images;
+  card.querySelector(".card-article__title").textContent = data.title;
+  card.querySelector(".card-article__author").textContent = data.author;
+  card.querySelector(".card-article__article").textContent = data.article;
+  share.addEventListener("click", () => toggleTooltipActive(tooltip));
+  card.querySelector('.card-article').addEventListener("mouseleave", () => {
+    tooltip.classList.remove("tooltip_active")
+
+  });
+  return card;
 };
 
 const renderCard = (data) => {

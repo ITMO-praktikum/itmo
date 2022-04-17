@@ -1,8 +1,8 @@
-.popup-tooltip__item {
+.tooltip__item {
     display: flex;
     margin-right: 8px;
 }
 
-.popup-tooltip__item:last-child {
+.tooltip__item:last-child {
     margin-right: 0;
 }
