@@ -3,6 +3,7 @@
   box-sizing: border-box;
   width: 288px;
   min-height: 462px;
+  max-height: 462px;
   display: flex;
   flex-direction: column;
   background-color: white;

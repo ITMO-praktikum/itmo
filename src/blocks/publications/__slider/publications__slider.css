@@ -1,6 +1,19 @@
 .publications__slider {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  height: 494px;
+  display: flex;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .publications__slider {
+    width: 690px;
+    height: 1110px;
+  }
+}
+
+@media (min-width: 1440px) {
+    .publications__slider {
+        width: 1110px;
+        height: 1176px;
+    }
 }

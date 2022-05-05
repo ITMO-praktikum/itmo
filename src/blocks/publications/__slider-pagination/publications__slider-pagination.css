@@ -1,0 +1,24 @@
+.publications__slider-pagination {
+    display: none;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transform: translateZ(0);
+    transition: opacity .3s;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .publications__slider-pagination {
+        display: flex;
+    }
+}
+
+@media (min-width: 1440px) {
+    .publications__slider-pagination {
+        display: flex;
+        bottom: 17px !important;
+    }
+}

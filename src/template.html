@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
   </head>
 
   <body class="root">
@@ -36,7 +40,17 @@
     <!-- Исполнитель:  -->
     <section class="publications">
       <h2 class="publications__title">ПУБЛИКАЦИИ</h2>
-      <div class="publications__slider"></div>
+      <div class="publications__slider swiper">
+        <div class="swiper-wrapper">
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="publications__slider-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
     </section>
 
     <!-- НАША КОМАНДА -->
@@ -107,4 +121,5 @@
       </article>
     </template>
   </body>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </html>

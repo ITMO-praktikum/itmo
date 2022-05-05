@@ -290,7 +290,7 @@ const publicationsCard = (data) => {
 
 const renderCard = (data) => {
   return document
-    .querySelector(".publications__slider")
+    .querySelector(".swiper-wrapper")
     .append(publicationsCard(data));
 };
 
